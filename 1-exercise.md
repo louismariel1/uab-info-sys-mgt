@@ -1,3 +1,4 @@
+# Project Management Exercise
 Absolutely. This exercise is essentially asking you to **build, schedule, staff, cost, and then control a project in Monday.com**. The key concepts are **precedence, duration, resources, workload/overload, cost, Gantt, and baseline vs. actual performance**.
 
  ## 1\. What is the project about?
