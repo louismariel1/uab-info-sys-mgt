@@ -1,13 +1,6 @@
-I agree. This gives us two complementary layers throughout the project:
+#  Centralized Hospital Laundry Location
 
-- **Academic version** — explains the methodology and reasoning formally.
-- **Practical project version** — communicates what we actually did, using concise project-oriented language.
-
-For the introduction, I would keep the practical version to about **half a page**.
-
-Practical Project Introduction — Centralized Hospital Laundry Location
-
-# 1\. Introduction — Practical Project Version
+# 1\. Introduction
 
 ## 1.1 Project Context
 
