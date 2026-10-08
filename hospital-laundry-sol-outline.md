@@ -1,5 +1,4 @@
-Absolutely. The best way to approach this assignment is to treat it as a **real facility-location project**, where the four methods are used as complementary analyses and the final answer is a **real, currently available industrial premise** in Vallès Occidental.
-
+# Hospital Laundry Location Problem
 ## Suggested step-by-step outline
 
 ### 1\. Define the problem and objective
