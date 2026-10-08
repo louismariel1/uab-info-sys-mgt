@@ -1,6 +1,4 @@
-Below is the introduction formatted as a GitHub-ready Markdown document. I’ve kept it self-contained so you can save it directly as `01-introduction.md`.
-
-Introduction — Centralized Hospital Laundry Location Project
+# Centralized Hospital Laundry Location Project
 
 # 1\. Introduction
 
