@@ -1,5 +1,3 @@
-Yes. I would do all three now. One small structural improvement: **Data Collection should remain a consolidated section**, while the detailed modelling phases follow it. Also, the current roadmap should reflect that Phase 3 is now the active phase.
-
 ## TD1 — Updated Project Status
 
 ```
