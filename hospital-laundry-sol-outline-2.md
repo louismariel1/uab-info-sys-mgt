@@ -1,5 +1,3 @@
-Yes. I’ve started the research, and we already have enough evidence to build a **realistic first version of the project**. The strongest preliminary signal is **Barberà del Vallès**, particularly the Can Salvatella/Santiga industrial area.
-
 ## 1\. Define the hospital network
 
 For a manageable and defensible assignment, I recommend using the **five main general hospitals with inpatient capacity in Vallès Occidental**:
