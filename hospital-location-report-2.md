@@ -1,7 +1,3 @@
-Absolutely. This is the right moment to consolidate the work. Chapters 1 and 2 should now reflect the **final decisions and datasets established so far**, rather than describing the project as still being designed.
-
-I suggest we keep the academic report concise and evidence-based, while the detailed methodological reasoning remains in our working notes.
-
 # Updated Chapters 1–2 — Academic Project Report
 
 Chapters 1–2 — Introduction and Data Collection
