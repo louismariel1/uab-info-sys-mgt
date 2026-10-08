@@ -1,6 +1,4 @@
-Yes. Since we are working iteratively, I would make the roadmap a **living project plan** rather than a fixed table of contents. The important change from our original outline is that we now have a **data/evidence phase before writing the report**, and we explicitly separate **facts, assumptions, calculations, and decisions**.
-
-# Updated Project Roadmap
+# Hospital Laundry Location Problem - Updated Project Roadmap
 
 ## Phase 0 — Project Definition and Working Rules
 
