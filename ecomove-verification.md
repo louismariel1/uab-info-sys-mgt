@@ -1,7 +1,3 @@
-We’ll establish a single master checklist for the EcoMove Solutions assignment, based on the original 14 requirements and the additional verification issues discovered during our board inspection.
-
-The rule will be simple: an item is marked DONE only when there is sufficient evidence that the requirement has been implemented correctly. A statement from Monday.com AI is useful evidence of what it attempted, but it does not replace inspection of the actual board, calculations, or screenshots.
-
 # EcoMove Solutions — Master Verification Checklist
 
 Project start: 5 October 2026 · Board: EcoMove Solutions – Project Launch · Final deliverable: academic PDF report
