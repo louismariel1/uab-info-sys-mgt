@@ -1083,7 +1083,9 @@ Although I have preserved the supplied results, I recommend checking the followi
 
 1. Factor Rating calculation: The stated weights and candidate scores should be recalculated. For example, Can Roqueta's supplied scores produce:
 
-$$ S=0.25(3)+0.20(5)+0.20(5)+0.15(5)+0.10(4)+0.10(3) $$
+$$
+S = 0.25(3) + 0.20(5) + 0.20(5) + 0.15(5) + 0.10(4) + 0.10(3)
+$$
 
 $$ \\boxed $$
 
