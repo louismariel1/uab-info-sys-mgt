@@ -30,4 +30,14 @@ $$
 \boxed{D = 7,545\ \text{kg/day}}
 $$
 
-This represents an estimated daily laundry processing requirement of 7,545 kg/day (7.545 tonnes/day).
+This represents an estimated daily laundry processing requirement of **7,545 kg/day (7.545 tonnes/day)**.
+
+Important GitHub rendering notes:
+
+1. Use `$$` on separate lines, not inline with the equation.
+2. Use `$...$` for inline mathematical expressions.
+3. Leave a blank line before and after display equations.
+4. Use `\boxed{...}` for boxed results.
+5. Use `\text{...}` for units and descriptive text inside equations.
+
+This version should render correctly in GitHub files that support Markdown mathematics, including `.md` files in repositories and GitHub Markdown previews.
