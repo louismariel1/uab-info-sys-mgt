@@ -1087,8 +1087,6 @@ $$
 S = 0.25(3) + 0.20(5) + 0.20(5) + 0.15(5) + 0.10(4) + 0.10(3)
 $$
 
-$$ \\boxed $$
-
 This differs from the reported 4.15/5.
 
 2. Center of Gravity: The projected coordinates should be independently recalculated from the seven hospital coordinates and weights to confirm the reported result.
