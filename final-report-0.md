@@ -726,7 +726,7 @@ This is a project modelling assumption, not a statutory requirement or establish
 | IA-C — Cerdanyola | 513 | 20.4% |
 | IA-R1 — Can Jardí | 442 | 17.6% |
 | IA-R2 — Cova Solera | 442 | 17.6% |
-| **Total demand** | **2,515** | **100%** |
+| **Total network demand (reference)** | **2,515** | **100%** |
 
 For Els Bellots:
 
