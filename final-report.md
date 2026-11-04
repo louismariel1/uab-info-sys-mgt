@@ -712,8 +712,6 @@ The full comparison is:
 
 This indicates that Cova Solera is the lowest-cost candidate under the adopted assumptions, but its economic advantage is relatively modest.
 
-The difference should therefore be interpreted carefully. Changes in rental conditions, transport routes or operating frequencies could influence the final ranking.
-
 ## 5.7 Interpretation and Limitations
 
 The Cost Model identifies IA-R2, Cova Solera in Rubí, as the candidate with the lowest estimated annual equivalent cost.
