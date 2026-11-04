@@ -1,14 +1,3 @@
-Yes. The previous version uses GitHub-compatible Markdown, with `$$ ... $$` for display equations, `$ ... $` for inline mathematics, standard Markdown headings and tables.
-
-I’ll apply that same format to the updated report, retaining the agreed corrections:
-
-- Section 6: Geographic Coverage Method.
-- Corrected weighted mean distance terminology and complete results table.
-- Consistent mathematical notation and rendered equations.
-- Updated cost calculations and final selection.
-- Concise paragraphs and compact tables.
-- Clear distinction between the selected industrial area and the pending validation of the specific property.
-
 # Centralized Hospital Laundry Location Study
 
 ## Location Analysis for a Centralized Hospital Laundry in Vallès Occidental, Catalonia
