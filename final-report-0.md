@@ -2,10 +2,11 @@
 
 ## Location Analysis for a Centralized Hospital Laundry in Vallès Occidental, Catalonia
 
+**Group Members:** Meabh Geary - 1829913, Thea Isberg - 1822816, Annemyn Ooschoeu – 1829120, Louis-Marie Loe - 1833548\
 **Report status:** Final analytical location study — location selection completed; final property validation pending\
 **Study area:** Vallès Occidental, Barcelona, Catalonia, Spain\
-**Selected location:** **Industrial warehouse in Polígon Industrial de Cova Solera, Rubí (Barcelona, Spain)**\ 
-**Group Members:** Meabh Geary - 1829913, Thea Isberg - 1822816, Annemyn Ooschoeu – 1829120, Louis-Marie Loe - 1833548
+**Selected location:** **Industrial warehouse in Polígon Industrial de Cova Solera, Rubí (Barcelona, Spain)** 
+
 
 ---
 
