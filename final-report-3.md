@@ -720,12 +720,10 @@ $$
 The relative saving compared with Can Jardí is:
 
 $$
-\frac{15,707}{1,836,721}\times100
+\text{Relative Saving} = \frac{15,707}{1,836,721}\times 100 = 0.86\%
 $$
 
-$$
-\boxed{0.86\%}
-$$
+The relative saving is approximately 0.86%.
 
 This indicates that Cova Solera is the lowest-cost candidate under the adopted assumptions, but its economic advantage is relatively modest.
 
