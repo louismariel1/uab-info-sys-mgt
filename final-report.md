@@ -708,7 +708,7 @@ The four approaches produce different preferred locations because they evaluate 
 
 | Method | Preferred Candidate | Main Objective |
 | --- | --- | --- |
-| Centre of Gravity | Theoretical point between Sabadell and Terrassa | Weighted geographical centrality |
+| Centre of Gravity | Camí de Can Coniller, 08220 Terrassa, Barcelona | Weighted geographical centrality |
 | Factor-Rating | IA-S2 – Can Roqueta | Weighted qualitative suitability |
 | Cost Model | **IA-R2 – Cova Solera** | Lowest estimated annual equivalent cost |
 | Graph-Based geographical proxies | IA-T – Els Bellots | Geographical proximity and coverage |
