@@ -899,27 +899,7 @@ The main findings are summarized below:
 | Geographical Coverage Model | IA-T — Els Bellots | Highest baseline coverage: 87.9% |
 | Extended geographical coverage (10 km) | IA-T and IA-S1 | Both achieve 100% coverage |
 
-The agreement between the two models provides additional geographical evidence in favour of Els Bellots.
-
-However, both models use the same underlying straight-line geographical distance approximation. Their agreement should therefore not be interpreted as two independent validations of actual road-network accessibility.
-
-### 6.3.1 Relevance to the Final Location Decision
-
-The geographical results should be interpreted alongside the findings of the other location-analysis methods.
-
-Els Bellots is the strongest candidate geographically because it minimizes weighted mean distance and maximizes baseline geographical coverage.
-
-However, the Cost Model presented in Section 5 identifies Cova Solera as the candidate with the lowest estimated annual equivalent cost.
-
-The two results are not contradictory because they evaluate different decision criteria:
-
-- The Discrete Weighted Simple Median and Geographical Coverage Models evaluate geographical proximity and potential demand coverage.
-- The Cost Model evaluates estimated annual rental, transportation, operating and establishment costs.
-
-The project owner's principal decision priority is minimizing the estimated total annual operating cost. Consequently, the Cost Model remains the controlling method for the final location recommendation.
-
-The geographical analysis identifies Els Bellots as the strongest candidate in terms of proximity and geographical coverage, while Cova Solera remains the preferred location under the project's economic decision criteria.
-
+The agreement between the two models provides additional geographical evidence in favour of Els Bellots. The project owner's principal decision priority is minimizing the estimated total annual operating cost. Consequently, the Cost Model remains the controlling method for the final location recommendation.
 
 # 7 Summary Results and Final Selection
 
@@ -935,25 +915,19 @@ The four approaches produce different preferred locations because they evaluate 
 | Simple Median Model | IA-T – Els Bellots | Minimum weighted geographical distance | Lowest weighted mean distance: 4.48 km |
 | Coverage Model | IA-T – Els Bellots | Geographical demand coverage | Highest baseline coverage: 87.9% within 7.5 km |
 
-The results are not contradictory. Each method addresses a different decision objective.
+The results are not contradictory, as each method evaluates a different aspect of the location decision:
 
-The Centre of Gravity Method provides a theoretical geographical reference based on the weighted coordinates of the seven healthcare facilities. It identifies a geographical balance point rather than an existing industrial property.
+- **Centre of Gravity:** Identifies the theoretical geographical balance point of the seven healthcare facilities.
+- **Factor-Rating:** Favours Can Roqueta, with the highest qualitative suitability score of **4.20/5**.
+- **Simple Median Model:** Favours Els Bellots, with the lowest weighted mean geographical distance of **4.48 km**.
+- **Coverage Model:** Favours Els Bellots, covering **87.9%** of weighted hospital demand within 7.5 km and 100% within 10 km.
+- **Cost Model:** Favours Cova Solera, with the lowest estimated annual equivalent cost of **€1,821,014**, saving €15,707 annually compared with Can Jardí.
 
-The Factor-Rating Method favours Can Roqueta because of its combined qualitative assessment of accessibility, industrial compatibility and evidence of suitable premises. It achieves the highest weighted score of 4.20/5.
+The geographical models support Els Bellots in terms of proximity and coverage, although they use straight-line distances rather than validated road-network routes. The Factor-Rating Model provides complementary qualitative evidence for Can Roqueta.
 
-The Simple Median Model favours Els Bellots because it achieves the lowest weighted mean geographical distance to the hospital demand points, at 4.48 km.
+**The Cost Model is the controlling method for the final selection**, as the project owner's primary objective is to minimize total annual costs, including transport-supply, transport-distribution, fixed, variable and establishment costs.
 
-The Coverage Model also favours Els Bellots, which covers 87.9% of weighted hospital demand within the baseline 7.5 km radius. Its coverage increases to 100% when the radius is extended to 10 km.
-
-These two geographical models provide complementary evidence supporting Els Bellots as the strongest candidate in terms of proximity and geographical coverage. However, their results are based on straight-line geographical distances rather than validated road-network routes.
-
-The Cost Model favours Cova Solera in Rubí because its estimated rental and transportation costs produce the lowest total annual equivalent cost of €1,821,014. Its advantage over the second-ranked candidate, Can Jardí, is €15,707 per year.
-
-The project owner's stated priority is to compare transport-supply, transport-distribution and operating costs, including fixed, variable and establishment costs.
-
-Consequently, the Cost Model is the most appropriate method for determining the final location under the project's adopted decision priorities.
-
-The geographical and qualitative methods provide complementary evidence for evaluating the alternatives, but they do not override the economic selection criterion established for this study.
+Therefore, **Cova Solera, Rubí (IA-R2), remains the preferred location** under the project's adopted decision priorities.
 
 ## 7.2 Cost Model Selection and Assumptions
 
