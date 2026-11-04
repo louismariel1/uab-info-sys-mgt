@@ -867,20 +867,6 @@ It also achieves 100% coverage at the extended 10 km radius.
 
 This indicates that Els Bellots provides the strongest geographical coverage of the six candidates under the tested straight-line distance assumptions.
 
-### 6.2.5 Interpretation
-
-The Geographical Coverage Model reinforces the findings of the Discrete Weighted Simple Median Model.
-
-Els Bellots performs particularly well because its geographical position allows it to cover a substantial proportion of hospital demand within a relatively short distance.
-
-The sensitivity analysis also demonstrates that the relative performance of some candidates changes considerably as the coverage radius increases.
-
-For example, Cova Solera increases its coverage from 17.6% at 7.5 km to 65.8% at 10 km.
-
-This demonstrates why the choice of coverage radius is important when interpreting geographical proximity.
-
-Nevertheless, the analysis measures straight-line geographical coverage rather than actual transport accessibility. A final operational assessment should use road-network distances or travel times, particularly because hospital laundry collection and delivery require regular vehicle movements.
-
 ## 6.3 Overall Geographical Results
 
 Both geographical models identify the same preferred candidate:
@@ -899,7 +885,7 @@ The main findings are summarized below:
 
 The agreement between the two models provides additional geographical evidence in favour of Els Bellots. The project owner's principal decision priority is minimizing the estimated total annual operating cost. Consequently, the Cost Model remains the controlling method for the final location recommendation.
 
-# 7 Summary Results and Final Selection
+# 7. Summary Results and Final Selection
 
 ## 7.1 Summary of the Four Methods and their Significance
 
