@@ -707,48 +707,6 @@ Here is the complete section rewritten using GitHub-compatible Markdown and LaTe
 
 ## 5.7 Economic Advantage of Cova Solera
 
-The difference between the first- and second-ranked candidates is calculated as follows:
-
-$$
-\Delta C = C_{\text{Can Jardí}} - C_{\text{Cova Solera}}
-$$
-
-$$
-\Delta C = 1,836,721 - 1,821,014
-$$
-
-$$
-\boxed{\Delta C = 15,707\text{ €/year}}
-$$
-
-The relative saving achieved by selecting Cova Solera instead of Can Jardí is calculated using Can Jardí's annual equivalent cost as the reference:
-
-$$
-\text{Relative Saving} =
-\frac{C_{\text{Can Jardí}} - C_{\text{Cova Solera}}}
-{C_{\text{Can Jardí}}}\times 100
-$$
-
-Substituting the values:
-
-$$
-\text{Relative Saving} =
-\frac{15,707}{1,836,721}\times 100
-$$
-
-$$
-\boxed{\text{Relative Saving} = 0.86\%}
-$$
-
-This means that selecting Cova Solera instead of Can Jardí generates an estimated annual saving of €15,707, equivalent to approximately 0.86% of Can Jardí's annual equivalent cost.
-
-The results indicate that Cova Solera is the lowest-cost candidate under the adopted assumptions, although its economic advantage over the second-ranked candidate is relatively modest.
-
-The difference should therefore be interpreted carefully. Changes in rental conditions, transport routes, vehicle operating costs or transport frequencies could influence the final ranking. Consequently, Cova Solera is recommended as the most economical alternative based on the current comparative model, rather than as an overwhelmingly superior location.
-
-
-## 5.7 Economic Advantage of Cova Solera
-
 The difference between the first- and second-ranked candidates is:
 
 $$
