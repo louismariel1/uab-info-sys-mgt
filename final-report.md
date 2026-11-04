@@ -683,7 +683,7 @@ This indicates that Cova Solera is the lowest-cost candidate under the adopted a
 
 ## 5.7 Cost Model Selection and Assumptions
 
-The Cost Model identifies IA-R2, Cova Solera in Rubí, as the candidate with the lowest estimated annual equivalent cost.
+The Cost Model is of strategic significance for the business owner. It identifies IA-R2, Cova Solera in Rubí, as the candidate with the lowest estimated annual equivalent cost.
 
 Its principal advantage is the comparatively low estimated rental cost, combined with relatively low distribution transport costs.
 
@@ -727,11 +727,8 @@ The project owner's stated priority is to compare transport-supply, transport-di
 
 ## 5.10 Selected Location and Rationale
 
-The selected location is:
-
-**Industrial warehouse in Polígon Industrial de Cova Solera, Rubí (Barcelona, Spain).**
-
-This corresponds to candidate IA-R2.
+The selected location is: 
+**Industrial warehouse in Polígon Industrial de Cova Solera, Rubí (Barcelona, Spain).** This corresponds to candidate IA-R2.
 
 An identifiable public property listing provides a reference for an industrial warehouse of approximately 1,500 m² in the Cova Solera industrial area, advertised at approximately €6,000 per month.
 
@@ -761,7 +758,7 @@ The listing demonstrates that a property of the required approximate scale has b
 
 ## Rationale for Selection
 
-Cova Solera is recommended because:
+Cova Solera is selected because:
 
 1. It achieves the lowest estimated annual equivalent cost.
 2. Its indicative rental rate is the lowest among the six candidates.
@@ -784,8 +781,6 @@ Four complementary location-analysis approaches were applied:
 4. Graph-Based Location Analysis using preliminary geographical distance and coverage proxies.
 
 **Final decision: Cova Solera, Rubí, is the preferred candidate because it achieves the lowest estimated total annual equivalent cost under the adopted project assumptions.**
-
-The next stage should focus on confirming the exact property, validating its availability, checking technical and regulatory suitability, and replacing the preliminary transport estimates with actual road-network routes and transport quotations.
 
 ---
 
