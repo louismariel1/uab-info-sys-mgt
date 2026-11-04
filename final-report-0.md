@@ -482,7 +482,7 @@ $$\
 \boxed{C\_{\text{transport,IA-R2}}=€48,229/year}\
 $$
 
-Cova Solera has the lowest estimated distribution transport cost and the second-lowest combined transport cost.
+Cova Solera has both the lowest estimated distribution transport cost (€41,392/year) and the lowest combined supply and distribution transport cost (€48,229/year) among the six candidate locations.
 
 ## 5.4 Property Rental Costs
 
