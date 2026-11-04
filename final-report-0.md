@@ -730,15 +730,10 @@ For Els Bellots:
 
 $$\
 Coverage\_{\text{IA-T}}=\
-\frac{2211}{2515}\times100\ = 87.9\%
+\frac{2211}{2515}\times100\ = 87.9
 $$
 
-$$
-\boxed{Coverage_{\mathrm{IA-T}}=87.9\%}
-$$
-
-
-Els Bellots therefore provides the highest baseline geographical coverage.
+Els Bellots therefore provides the highest baseline geographical coverage of 87.9\%.
 
 ## 6.4 Sensitivity to Coverage Radius
 
