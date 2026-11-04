@@ -703,8 +703,6 @@ The full comparison is:
 | 5 | IA-C – Cerdanyola | €98,100 | €55,610 | €1,700,785 | €1,854,495 |
 | 6 | IA-T – Els Bellots | €107,100 | €52,757 | €1,700,785 | €1,860,642 |
 
-Here is the complete section rewritten using GitHub-compatible Markdown and LaTeX. The main correction is to use `\[` and `\]` for display equations instead of `$$`, which avoids rendering inconsistencies in some GitHub Markdown environments.
-
 ## 5.7 Economic Advantage of Cova Solera
 
 The difference between the first- and second-ranked candidates is:
