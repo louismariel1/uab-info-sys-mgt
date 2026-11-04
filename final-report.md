@@ -710,37 +710,17 @@ The full comparison is:
 | 5 | IA-C – Cerdanyola | €98,100 | €55,610 | €1,700,785 | €1,854,495 |
 | 6 | IA-T – Els Bellots | €107,100 | €52,757 | €1,700,785 | €1,860,642 |
 
-## 5.7 Economic Advantage of Cova Solera
-
-The difference between the first- and second-ranked candidates is:
-
-$$
-\Delta C= 1,836,721-1,821,014
-$$
-
-$$
-\boxed{\Delta C=€15,707/year}
-$$
-
-The relative saving compared with Can Jardí is:
-
-$$
-\text{Relative Saving} = \frac{15,707}{1,836,721}\times 100 = 0.86\%
-$$
-
-The relative saving is approximately 0.86%.
-
 This indicates that Cova Solera is the lowest-cost candidate under the adopted assumptions, but its economic advantage is relatively modest.
 
 The difference should therefore be interpreted carefully. Changes in rental conditions, transport routes or operating frequencies could influence the final ranking.
 
-## 5.8 Interpretation and Limitations
+## 5.7 Interpretation and Limitations
 
 The Cost Model identifies IA-R2, Cova Solera in Rubí, as the candidate with the lowest estimated annual equivalent cost.
 
 Its principal advantage is the comparatively low estimated rental cost, combined with relatively low distribution transport costs.
 
-However, the result depends on the adopted assumptions.
+The result is based on the adopted assumptions.
 
 In particular:
 
@@ -750,8 +730,6 @@ In particular:
 - Rental prices are indicative rather than confirmed contractual values.
 - Fixed and variable operating costs are common planning assumptions.
 - Establishment costs are annualised without a detailed financing or depreciation model.
-
-The Cost Model should therefore be regarded as a comparative academic economic assessment, not a fully validated investment appraisal.
 
 ---
 
