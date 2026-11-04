@@ -309,7 +309,7 @@ $$
 \boxed{41.544555^\circ\text{ N},\quad2.064943^\circ\text{ E}}
 $$
 
-Using reverse geocoding, the nearest identifiable address is Camí de **Can Coniller, 08220 Terrassa, Barcelona, Spain**. The Centre of Gravity is therefore useful for preliminary geographical screening but does not determine the final industrial property.
+Using reverse geocoding, the nearest identifiable address is: **Camí de Can Coniller, 08220 Terrassa, Barcelona, Spain**. The Centre of Gravity is therefore useful for preliminary geographical screening but does not determine the final industrial property.
 
 ---
 
