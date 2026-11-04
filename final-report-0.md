@@ -734,7 +734,7 @@ Coverage\_{\text{IA-T}}=\
 $$
 
 $$
-\boxed{\text{Coverage}_{\text{IA-T}}=87.9\%}
+\boxed{Coverage_{\mathrm{IA-T}}=87.9\%}
 $$
 
 
