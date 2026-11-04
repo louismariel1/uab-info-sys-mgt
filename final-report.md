@@ -700,7 +700,7 @@ In particular:
 
 ---
 
-## 5.8 Summary of the Four Methods
+## 5.8 Summary of the Four Methods and their Significance
 
 The four approaches produce different preferred locations because they evaluate different aspects of the location decision.
 
@@ -710,8 +710,6 @@ The four approaches produce different preferred locations because they evaluate 
 | Factor-Rating | IA-S2 – Can Roqueta | Weighted qualitative suitability |
 | **Cost Model** | **IA-R2 – Cova Solera** | **Lowest estimated annual equivalent cost** |
 | Graph-Based geographical proxies | IA-T – Els Bellots | Geographical proximity and coverage |
-
-## 5.9 Significance of the Results
 
 The results are not contradictory. Each method addresses a different decision objective.
 
@@ -727,7 +725,7 @@ The project owner's stated priority is to compare transport-supply, transport-di
 
 **Consequently, the Cost Model is the most appropriate method for determining the final location under the project's adopted decision priorities.**
 
-## 5.10 Selected Location
+## 5.10 Selected Location and Rationale
 
 The selected location is:
 
@@ -761,25 +759,7 @@ This provides a real property-market reference consistent with the rental assump
 
 The listing demonstrates that a property of the required approximate scale has been marketed in the selected industrial area.
 
-It does not confirm that the property remains available, that its advertised conditions are unchanged or that its technical suitability has been verified.
-
-The estimated annual equivalent cost is:
-
-$$
-\boxed{€1,821,014/year}
-$$
-
-This compares with €1,836,721 for the second-ranked candidate, Can Jardí.
-
-The annual difference is:
-
-$$
-\boxed{€15,707/year}
-$$
-
-The principal economic advantage is the comparatively low estimated rental cost, combined with competitive distribution and supply transportation estimates.
-
-## 5.11 Reasons for Selection
+## Rationale for Selection
 
 Cova Solera is recommended because:
 
