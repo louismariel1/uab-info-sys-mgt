@@ -694,10 +694,6 @@ The purpose of this section is to evaluate geographical proximity and potential 
 
 *methodology*: The current numerical analysis uses straight-line geographical distances between representative hospital and industrial-area coordinates. Although the models are graph-related, a fully implemented road-network analysis would require a road-network graph and shortest-path calculations. The results presented here should therefore be interpreted as reflecting the limitations of the usage of the straight-line geographical distances instead of real road-network distances.
 
-The following is the consolidated, report-ready Section 6. It uses the corrected terminology Discrete Weighted Simple Median Model and Geographical Coverage Model, rather than describing the analysis as a fully implemented graph-based model.
-
-The numerical results are retained from the independently recalculated geographical screening dataset. The methodological limitations are made explicit, particularly the distinction between straight-line geographical distances and road-network shortest-path distances.
-
 Writing
 
 # 6\. Geographical Distance and Coverage Models
