@@ -896,7 +896,3 @@ An identifiable public warehouse listing supports the rental assumption. Current
 9. **UBICAT.** Sabadell, Can Roqueta II, industrial warehouse development, reference 1178.\
    [https://www.ubicat.cat/es/sabadell/p_i_can_roqueta_ii/naves_industriales/ref-1178](https://www.ubicat.cat/es/sabadell/p_i_can_roqueta_ii/naves_industriales/ref-1178)
 10. **Geographical and property comparison dataset.** Hospital coordinates, candidate industrial-area coordinates and indicative rental references compiled for this study.
-
-**Evidence qualification:** Property listings, rental prices and market references are subject to change. Asking rents are not confirmed lease prices. Transport costs are estimates rather than provider quotations. The numerical results should therefore be interpreted as an academic comparative location study based on the stated assumptions.
-
-Formatting note: The equations use standard LaTeX delimiters (`$$...$$` for display mathematics and `$...$` for inline mathematics), which GitHub Markdown supports. The report can therefore be maintained as a `.md` file without converting the equations into images or plain-text approximations.
