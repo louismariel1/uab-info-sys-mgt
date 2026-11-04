@@ -278,15 +278,10 @@ $$
 
 The nearest identifiable address returned by reverse geocoding is: **Camí de Can Coniller, 08220 Terrassa, Barcelona, Spain.**
 
-This is a reference to the theoretical geographical point, not an identified industrial property.
-
 ## 3.4 Interpretation
 
-The Centre of Gravity provides a demand-weighted geographical balance point for the hospital network.
+The Centre of Gravity identifies **Camí de Can Coniller, 08220 Terrassa, Barcelona, Spain.** as the geographic  weighted center of gravity for all seven hospital facilities. The identified location would serve as the location of the laundry facility if the center of gravitiy method was the deciding factor for the final location. 
 
-It does not directly account for road-network layout, traffic, property availability, rental costs or industrial suitability.
-
-It is therefore useful for preliminary geographical screening but does not determine the final location.
 
 ---
 
