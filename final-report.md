@@ -691,8 +691,7 @@ Two complementary geographical models are used to evaluate the proximity of the 
 Both models use the seven hospital service points, weighted by their respective bed capacities, and the six candidate industrial areas.
 
 The purpose of this section is to evaluate geographical proximity and potential service coverage independently of the economic comparison presented in Section 5.
-
-*methodology*: The current numerical analysis uses straight-line geographical distances between representative hospital and industrial-area coordinates. Although the models are graph-related, a fully implemented road-network analysis would require a road-network graph and shortest-path calculations. The results presented here should therefore be interpreted as reflecting the limitations of the usage of the straight-line geographical distances instead of real road-network distances.
+**Methodology**: The current numerical analysis uses straight-line geographical distances between representative hospital and industrial-area coordinates. Although the models are graph-related, a fully implemented road-network analysis would require a road-network graph and shortest-path calculations. The results presented here should therefore be interpreted as reflecting the limitations of the usage of the straight-line geographical distances instead of real road-network distances.
 
 Writing
 
