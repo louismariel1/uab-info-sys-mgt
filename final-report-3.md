@@ -729,39 +729,6 @@ This indicates that Cova Solera is the lowest-cost candidate under the adopted a
 
 The difference should therefore be interpreted carefully. Changes in rental conditions, transport routes or operating frequencies could influence the final ranking.
 
-// Error fixing
-Yes. I can spot the problem. The issue is most likely caused by the `\boxed{}` command combined with `%` and the way GitHub parses the mathematical expressions.
-
-There is also a formatting issue in the fractions: the numerator and denominator must be explicitly separated using `\frac{...}{...}`.
-
-I recommend removing `\boxed{}` altogether and using simpler GitHub-compatible LaTeX.
-
-### First occurrence — corrected
-
-Substituting the values:
-
-$$
-\text{Relative Saving} = \frac{15,707}{1,836,721}\times 100
-$$
-
-$$
-\text{Relative Saving} = 0.8551\%
-$$
-
-Relative Saving = 0.86%
-
-### Second occurrence — corrected
-
-The relative saving compared with Can Jardí is:
-
-$$
-\text{Relative Saving} = \frac{15,707}{1,836,721}\times 100 = 0.86\%
-$$
-
-The relative saving is approximately 0.86%.
-
-My recommendation: Use the second, more compact version in your report. It is cleaner and avoids unnecessary repetition.
-
 ## 5.8 Interpretation and Limitations
 
 The Cost Model identifies IA-R2, Cova Solera in Rubí, as the candidate with the lowest estimated annual equivalent cost.
