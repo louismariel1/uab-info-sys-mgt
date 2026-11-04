@@ -731,318 +731,9 @@ In particular:
 
 ---
 
-# 6\. Preliminary Graph-Based Location Analysis Using Geographical Distance Proxies
+# 6\. Comparison of Results
 
-## 6.1 Methodological Context
-
-Graph-Based Location Models represent a transport network using vertices and edges.
-
-Vertices represent relevant locations, while edges represent connections between them. Network-based models can then use shortest-path distances to evaluate accessibility and transport performance.
-
-The available analysis uses geographical distances between representative coordinates rather than a fully constructed road-network graph.
-
-The results should therefore be interpreted as preliminary geographical distance proxies, not as a complete graph shortest-path implementation.
-
-For consistency, the independent recalculation uses:
-
-- WGS84 geographical coordinates.
-- WGS84 geodesic distances.
-- Hospital bed numbers as demand weights.
-- A total demand weight of 2,515 beds.
-
-## 6.2 Weighted Distance Comparison
-
-### 6.2.1 Methodology
-
-The weighted mean distance is calculated using:
-
-$$
-\bar d_j=
-\frac{\sum_{i=1}^{7}W_id_{ij}}
-{\sum_{i=1}^{7}W_i}
-$$
-
-Where:
-
-- $W_i$ = Number of beds at healthcare facility $i$.
-- $d_{ij}$ = WGS84 geodesic distance between facility $i$ and candidate $j$.
-- $\sum W_i=2,515$.
-
-The weighted mean distance therefore represents the average geographical distance to the healthcare network, with larger hospitals receiving greater importance.
-
-### 6.2.2 Hospital-to-Candidate Distance Matrix
-
-The seven hospital coordinates and six candidate coordinates produce 42 individual geographical distances.
-
-The distances below were independently recalculated using the WGS84 ellipsoid.
-
-All values are in kilometres and rounded to three decimal places.
-
-| Hospital | Els Bellots | Sant Pau | Can Roqueta | Can Jardí | Cova Solera | Cerdanyola |
-| --- | --- | --- | --- | --- | --- | --- |
-| H01 | 5.776 | 4.941 | 2.977 | 11.900 | 11.023 | 7.969 |
-| H02 | 1.227 | 6.197 | 7.128 | 9.629 | 8.765 | 9.151 |
-| H03 | 2.547 | 8.861 | 10.196 | 10.042 | 9.291 | 11.523 |
-| H04 | 8.325 | 6.264 | 10.229 | 1.985 | 1.662 | 5.392 |
-| H05 | 7.320 | 3.127 | 7.048 | 5.144 | 4.496 | 2.494 |
-| H06 | 2.464 | 8.774 | 10.156 | 9.906 | 9.156 | 11.419 |
-| H07 | 6.652 | 2.591 | 1.516 | 10.386 | 9.566 | 5.271 |
-
-The displayed distances are rounded for presentation. The weighted mean calculations use the underlying unrounded distances.
-
-### 6.2.3 Worked Weighted Mean Example: Els Bellots
-
-Using the hospital bed weights:
-
-$$
-\begin{aligned}
-\bar d_{\text{Els Bellots}}=
-\frac{1}{2515}(&861d_{H01}+460d_{H02}\\
-&+604d_{H03}+304d_{H04}\\
-&+138d_{H05}+77d_{H06}\\
-&+71d_{H07})
-\end{aligned}
-$$
-
-Using the unrounded geodesic distances gives:
-
-$$
-\boxed{\bar d_{\text{Els Bellots}}=4.48\text{ km}}
-$$
-
-The same procedure is applied to the other five candidate locations.
-
-### 6.2.4 Independently Recalculated Results
-
-| Candidate | Original Report | Recalculated | Difference |
-| --- | --- | --- | --- |
-| IA-T – Els Bellots | 4.48 km | 4.48 km | 0.00 km |
-| IA-S1 – Sant Pau de Riu-sec | 6.22 km | 6.22 km | 0.00 km |
-| IA-S2 – Can Roqueta | 6.74 km | **6.75 km** | +0.01 km |
-| IA-R1 – Can Jardí | 9.37 km | 9.37 km | 0.00 km |
-| IA-R2 – Cova Solera | 8.61 km | 8.61 km | 0.00 km |
-| IA-C – Cerdanyola | 8.46 km | 8.46 km | 0.00 km |
-
-The exact recalculated weighted mean distance for Can Roqueta is:
-
-$$
-\bar d_{\text{Can Roqueta}}=6.7484\text{ km}
-$$
-
-Conventional rounding to two decimal places gives:
-
-$$
-\boxed{6.75\text{ km}}
-$$
-
-The original figure of 6.74 km may reflect truncation or a slightly different distance convention.
-
-### 6.2.5 Result and Interpretation
-
-The best candidate under the preliminary weighted-distance comparison is:
-
-$$
-\boxed{\text{IA-T – Els Bellots}}
-$$
-
-with a weighted mean geographical distance of 4.48 km.
-
-Els Bellots benefits from its position between the principal hospital demand concentrations in Sabadell and Terrassa.
-
-The recalculation confirms the original geographical ranking. The only numerical correction is Can Roqueta, which changes from 6.74 km to 6.75 km.
-
-These distances represent straight-line geographical measurements, not actual road-network travel distances.
-
-## 6.3 Coverage Analysis
-
-### 6.3.1 Methodology
-
-The Coverage Model evaluates the proportion of total hospital demand located within a specified geographical distance of each candidate facility.
-
-For candidate $j$ and coverage radius $R$, covered demand is calculated as:
-
-$$
-C_j(R)=
-\sum_{i=1}^{n}W_iI(d_{ij}\leq R)
-$$
-
-The coverage percentage is:
-
-$$
-C_j(R)=
-\frac{
-\sum_{i=1}^{n}W_iI(d_{ij}\leq R)
-}{
-2515
-}\times100
-$$
-
-Where:
-
-- $W_i$ = Hospital bed capacity.
-- $d_{ij}$ = WGS84 geodesic distance.
-- $R$ = Coverage threshold.
-- $I(\cdot)$ = Indicator function equal to 1 when the distance is within the specified threshold and 0 otherwise.
-
-The baseline coverage radius is:
-
-$$
-\boxed{R=7.5\text{ km}}
-$$
-
-This is a project modelling assumption, not a statutory or operational service requirement.
-
-### 6.3.2 Worked Coverage Example: Els Bellots
-
-At the 7.5 km threshold, Els Bellots covers the following facilities:
-
-- H01: 861 beds.
-- H02: 460 beds.
-- H03: 604 beds.
-- H05: 138 beds.
-- H06: 77 beds.
-- H07: 71 beds.
-
-H04 is outside the selected radius.
-
-The total covered demand is:
-
-$$
-861+460+604+138+77+71
-$$
-
-$$
-\boxed{2,211\text{ beds}}
-$$
-
-The coverage percentage is:
-
-$$
-C_{\text{Els Bellots}}(7.5)=
-\frac{2211}{2515}\times100
-$$
-
-$$
-\boxed{87.9\%}
-$$
-
-The same procedure is applied to all candidates.
-
-### 6.3.3 Recalculated Coverage Results
-
-| Candidate | 5 km | 7.5 km | 10 km |
-| --- | --- | --- | --- |
-| IA-T – Els Bellots | 45.4% | 87.9% | 100.0% |
-| IA-S1 – Sant Pau de Riu-sec | 42.5% | 72.9% | 100.0% |
-| IA-S2 – Can Roqueta | 37.1% | 60.8% | 60.8% |
-| IA-R1 – Can Jardí | 12.1% | 17.6% | 38.9% |
-| IA-R2 – Cova Solera | 17.6% | 17.6% | 65.8% |
-| IA-C – Cerdanyola | 5.5% | 20.4% | 72.9% |
-
-### 6.3.4 Additional Verification: Covered Bed Counts
-
-The coverage percentages were also checked against the underlying number of covered beds.
-
-| Candidate | Beds within 5 km | Beds within 7.5 km | Beds within 10 km |
-| --- | --- | --- | --- |
-| IA-T – Els Bellots | 1,141 | 2,211 | 2,515 |
-| IA-S1 – Sant Pau de Riu-sec | 1,070 | 1,834 | 2,515 |
-| IA-S2 – Can Roqueta | 932 | 1,530 | 1,530 |
-| IA-R1 – Can Jardí | 304 | 442 | 979 |
-| IA-R2 – Cova Solera | 442 | 442 | 1,654 |
-| IA-C – Cerdanyola | 138 | 513 | 1,834 |
-
-For example, the 7.5 km coverage percentage for Sant Pau is:
-
-$$
-\frac{1834}{2515}\times100
-=
-72.9225\%
-$$
-
-Rounded to one decimal place:
-
-$$
-\boxed{72.9\%}
-$$
-
-For Cova Solera:
-
-$$
-\frac{442}{2515}\times100
-=
-17.5746\%
-$$
-
-Rounded to one decimal place:
-
-$$
-\boxed{17.6\%}
-$$
-
-### 6.3.5 Sensitivity Analysis
-
-The coverage results were tested at three geographical distance thresholds:
-
-- 5 km.
-- 7.5 km.
-- 10 km.
-
-The independently recalculated percentages agree with all 18 values in the original geographical analysis after rounding to one decimal place.
-
-No coverage corrections are required.
-
-### 6.3.6 Interpretation
-
-Els Bellots obtains the highest coverage at the baseline threshold of 7.5 km, reaching 87.9% of weighted hospital demand.
-
-It also reaches 100% coverage at 10 km.
-
-The result indicates that Els Bellots offers the strongest geographical proximity and coverage performance among the six candidates under the current straight-line distance assumptions.
-
-However, these results do not represent actual road-network travel distances or verified delivery times.
-
-A complete graph-based analysis would require a road-network representation and shortest-path calculations.
-
-## 6.4 Independent Verification Summary
-
-The independent geographical recalculation produces the following findings:
-
-| Analysis | Verification result | Required action |
-| --- | --- | --- |
-| Centre of Gravity | Confirmed | Retain |
-| Els Bellots weighted distance | Confirmed | Retain |
-| Sant Pau weighted distance | Confirmed | Retain |
-| Can Roqueta weighted distance | 6.7484 km | Correct to 6.75 km |
-| Can Jardí weighted distance | Confirmed | Retain |
-| Cova Solera weighted distance | Confirmed | Retain |
-| Cerdanyola weighted distance | Confirmed | Retain |
-| Coverage at 5 km | All 6 values confirmed | Retain |
-| Coverage at 7.5 km | All 6 values confirmed | Retain |
-| Coverage at 10 km | All 6 values confirmed | Retain |
-| Covered-bed counts | All 18 values reproduced | Retain |
-
-The independent recalculation confirms that the geographical ranking and coverage conclusions remain unchanged.
-
-## 6.5 Overall Graph-Based Interpretation
-
-Both preliminary geographical indicators favour IA-T, Els Bellots in Terrassa.
-
-It provides:
-
-- The lowest weighted mean geographical distance: 4.48 km.
-- The highest baseline coverage: 87.9%.
-- Full geographical coverage of the hospital network within 10 km.
-
-However, these results do not establish the lowest real transport cost.
-
-The Cost Model remains the controlling method for the final decision because the project owner's stated priority is the comparative assessment of total annual operating and transportation costs.
-
----
-
-# 7\. Comparison of Results
-
-## 7.1 Summary of the Four Methods
+## 6.1 Summary of the Four Methods
 
 The four approaches produce different preferred locations because they evaluate different aspects of the location decision.
 
@@ -1053,7 +744,7 @@ The four approaches produce different preferred locations because they evaluate 
 | Cost Model | **IA-R2 – Cova Solera** | Lowest estimated annual equivalent cost |
 | Graph-Based geographical proxies | IA-T – Els Bellots | Geographical proximity and coverage |
 
-## 7.2 Discussion of the Results
+## 6.2 Discussion of the Results
 
 The results are not contradictory. Each method addresses a different decision objective.
 
@@ -1069,7 +760,7 @@ The project owner's stated priority is to compare transport-supply, transport-di
 
 Consequently, the Cost Model is the most appropriate method for determining the final location under the project's adopted decision priorities.
 
-## 7.3 Final Decision Criteria
+## 6.3 Final Decision Criteria
 
 The results should be interpreted according to their respective purposes:
 
@@ -1086,9 +777,9 @@ The methods have different objectives, and the project has explicitly prioritize
 
 ---
 
-# 8\. Selection of the Real Premise
+# 7\. Selection of the Real Premise
 
-## 8.1 Selected Location
+## 7.1 Selected Location
 
 The selected location is:
 
@@ -1124,7 +815,7 @@ The listing demonstrates that a property of the required approximate scale has b
 
 It does not confirm that the property remains available, that its advertised conditions are unchanged or that its technical suitability has been verified.
 
-## 8.2 Suitability for the Proposed Function
+## 7.2 Suitability for the Proposed Function
 
 Cova Solera is an established industrial area in Rubí.
 
@@ -1136,9 +827,9 @@ The selection is based on the available geographical, industrial and property-ma
 
 ---
 
-# 9\. Final Recommendation
+# 8\. Final Recommendation
 
-## 9.1 Recommended Location
+## 8.1 Recommended Location
 
 Based on the results of the four location-analysis approaches and the project owner's stated business priorities, the recommended location is:
 
@@ -1162,7 +853,7 @@ $$
 
 The principal economic advantage is the comparatively low estimated rental cost, combined with competitive distribution and supply transportation estimates.
 
-## 9.2 Reasons for Selection
+## 8.2 Reasons for Selection
 
 Cova Solera is recommended because:
 
@@ -1173,7 +864,7 @@ Cova Solera is recommended because:
 5. An identifiable industrial warehouse property reference of approximately 1,500 m² supports the rental assumption.
 6. Its selection is consistent with the project's priority of minimizing estimated total operating cost.
 
-## 9.4 Principal Risks and Limitations
+## 8.4 Principal Risks and Limitations
 
 The principal limitations of the current study are:
 
@@ -1191,7 +882,7 @@ These limitations should be addressed before making a final investment or leasin
 
 ---
 
-# 10\. Conclusion
+# 9\. Conclusion
 
 This study has evaluated six candidate industrial areas for a centralized hospital laundry facility serving seven healthcare facilities in Vallès Occidental.
 
