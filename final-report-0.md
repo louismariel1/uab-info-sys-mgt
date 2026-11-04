@@ -877,9 +877,6 @@ The results identify different strengths among the candidates. Can Roqueta achie
 However, the project owner's primary priority is minimizing total annual costs, including supply transport, distribution transport, fixed operating, variable processing and establishment costs.
 
 **Final decision: Cova Solera, Rubí, is the preferred location because it achieves the lowest estimated annual equivalent cost of €1,821,014 under the adopted project assumptions.**
-
-An identifiable public warehouse listing supports the rental assumption. Current property availability and detailed suitability remain to be confirmed before any commercial commitment.
-
 ---
 
 # References and Evidence Record
