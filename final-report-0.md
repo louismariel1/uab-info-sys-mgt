@@ -1,4 +1,4 @@
-# Centralized Hospital Laundry Location Study
+# Centralized Hospital Laundry Location Project
 
 ## Location Analysis for a Centralized Hospital Laundry in Vallès Occidental, Catalonia
 
