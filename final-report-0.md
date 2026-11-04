@@ -348,27 +348,29 @@ The scores are indicative comparative assessments based on the available geograp
 
 For IA-S2 — Can Roqueta:
 
-$$\
-\begin{aligned}\
-S\_{\text{IA-S2}}={}&0.25(3)+0.20(5)+0.20(5)\\\
-&+0.15(5)+0.10(4)+0.10(3)\
-\end{aligned}\
+$$
+\begin{aligned}
+S_{\text{IA-S2}}={}&0.25(3)+0.20(5)+0.20(5)\\
+&+0.15(5)+0.10(4)+0.10(3)
+\end{aligned}
 $$
 
-$$\
-\boxed{S\_{\text{IA-S2}}=4.20/5}\
+$$
+\boxed{S_{\text{IA-S2}}=4.20/5}
 $$
 
-The results for all candidates are:
+The weighted results for all candidates are:
 
-| Candidate                   | Weighted Score | Rank  |
-| --------------------------- | -------------- | ----- |
-| **IA-S2 — Can Roqueta**     | **4.20**       | **1** |
-| IA-T — Els Bellots          | 4.00           | 2     |
-| IA-S1 — Sant Pau de Riu-sec | 3.55           | 3     |
-| IA-R1 — Can Jardí           | 3.55           | 3     |
-| IA-R2 — Cova Solera         | 3.55           | 3     |
-| IA-C — Cerdanyola           | 3.05           | 6     |
+| Candidate | Weighted Score | Rank |
+|---|---:|---:|
+| **IA-S2 — Can Roqueta** | **4.20** | **1** |
+| IA-T — Els Bellots | 4.00 | 2 |
+| IA-S1 — Sant Pau de Riu-sec | 3.55 | 3 |
+| IA-R1 — Can Jardí | 3.55 | 3 |
+| IA-R2 — Cova Solera | 3.55 | 3 |
+| IA-C — Cerdanyola | 3.05 | 6 |
+
+IA-S2 — Can Roqueta achieves the highest weighted score of **4.20/5**, followed by IA-T — Els Bellots with **4.00/5**. IA-S1, IA-R1 and IA-R2 are tied in third place, each scoring **3.55/5**.
 
 ## 4.5 Interpretation
 
