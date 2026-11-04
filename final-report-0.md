@@ -45,7 +45,7 @@ This is €15,707 lower per year than the second-ranked candidate, Can Jardí.
 
 **Final recommendation:** Select an industrial warehouse in **Polígon Industrial de Cova Solera, Rubí (Barcelona, Spain)** as the preferred location under the adopted assumptions.
 
-An identifiable public listing supports an approximate 1,500 m² warehouse and an indicative rental cost of €6,000/month.
+A publicly available property listing provides indicative evidence of a warehouse of approximately 1,500 m² in Cova Solera, with an asking rent of €6,000/month.
 
 ---
 
