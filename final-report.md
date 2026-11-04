@@ -729,11 +729,7 @@ The project owner's stated priority is to compare transport-supply, transport-di
 
 **Consequently, the Cost Model is the most appropriate method for determining the final location under the project's adopted decision priorities.**
 
----
-
-# 7\. Selection of the Real Premise
-
-## 7.1 Selected Location
+## 6.3 Selected Location
 
 The selected location is:
 
@@ -769,28 +765,6 @@ The listing demonstrates that a property of the required approximate scale has b
 
 It does not confirm that the property remains available, that its advertised conditions are unchanged or that its technical suitability has been verified.
 
-## 7.2 Suitability for the Proposed Function
-
-Cova Solera is an established industrial area in Rubí.
-
-Its industrial context and access to the regional road network make it a plausible candidate for a centralized logistics and processing operation.
-
-The indicative property size is consistent with the common 1,500 m² reference used in the cost comparison.
-
-The selection is based on the available geographical, industrial and property-market evidence and the comparative Cost Model.
-
----
-
-# 8\. Final Recommendation
-
-## 8.1 Recommended Location
-
-Based on the results of the four location-analysis approaches and the project owner's stated business priorities, the recommended location is:
-
-**Industrial warehouse in Polígon Industrial de Cova Solera, Rubí (Barcelona, Spain).**
-
-The recommendation is primarily supported by the Cost Model, which produces the lowest estimated annual equivalent cost among the six candidates.
-
 The estimated annual equivalent cost is:
 
 $$
@@ -807,7 +781,7 @@ $$
 
 The principal economic advantage is the comparatively low estimated rental cost, combined with competitive distribution and supply transportation estimates.
 
-## 8.2 Reasons for Selection
+## 6.4 Reasons for Selection
 
 Cova Solera is recommended because:
 
@@ -818,25 +792,7 @@ Cova Solera is recommended because:
 5. An identifiable industrial warehouse property reference of approximately 1,500 m² supports the rental assumption.
 6. Its selection is consistent with the project's priority of minimizing estimated total operating cost.
 
-## 8.4 Principal Risks and Limitations
-
-The principal limitations of the current study are:
-
-- The demand estimate is based on bed capacity and an assumed laundry-generation factor.
-- Candidate coordinates represent industrial areas rather than actual premises.
-- Factor-Rating scores are preliminary qualitative assessments.
-- Rental prices are indicative and require direct revalidation.
-- The transport model uses converted geographical distances rather than validated road-network shortest paths.
-- Transport costs are based on assumed frequencies and an indicative benchmark.
-- Fixed, variable and establishment costs are planning assumptions.
-- Actual utility capacity and laundry-specific technical suitability have not been established.
-- The final property address and coordinates require confirmation.
-
-These limitations should be addressed before making a final investment or leasing commitment.
-
----
-
-# 9\. Conclusion
+# 7\. Conclusion
 
 This study has evaluated six candidate industrial areas for a centralized hospital laundry facility serving seven healthcare facilities in Vallès Occidental.
 
