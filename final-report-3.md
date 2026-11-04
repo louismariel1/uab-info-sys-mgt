@@ -710,8 +710,7 @@ The full comparison is:
 The difference between the first- and second-ranked candidates is:
 
 $$
-\Delta C=
-1,836,721-1,821,014
+\Delta C= 1,836,721-1,821,014
 $$
 
 $$
