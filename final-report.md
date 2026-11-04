@@ -681,7 +681,7 @@ The full comparison is:
 
 This indicates that Cova Solera is the lowest-cost candidate under the adopted assumptions, but its economic advantage is relatively modest.
 
-## 5.7 Interpretation and Assumptions
+## 5.7 Cost Model Selection and Assumptions
 
 The Cost Model identifies IA-R2, Cova Solera in Rubí, as the candidate with the lowest estimated annual equivalent cost.
 
@@ -711,7 +711,7 @@ The four approaches produce different preferred locations because they evaluate 
 | **Cost Model** | **IA-R2 – Cova Solera** | **Lowest estimated annual equivalent cost** |
 | Graph-Based geographical proxies | IA-T – Els Bellots | Geographical proximity and coverage |
 
-## 6.2 Discussion of the Results
+## 5.9 Significance of the Results
 
 The results are not contradictory. Each method addresses a different decision objective.
 
@@ -727,7 +727,7 @@ The project owner's stated priority is to compare transport-supply, transport-di
 
 **Consequently, the Cost Model is the most appropriate method for determining the final location under the project's adopted decision priorities.**
 
-## 6.3 Selected Location
+## 5.10 Selected Location
 
 The selected location is:
 
@@ -779,7 +779,7 @@ $$
 
 The principal economic advantage is the comparatively low estimated rental cost, combined with competitive distribution and supply transportation estimates.
 
-## 6.4 Reasons for Selection
+## 5.11 Reasons for Selection
 
 Cova Solera is recommended because:
 
@@ -790,7 +790,7 @@ Cova Solera is recommended because:
 5. An identifiable industrial warehouse property reference of approximately 1,500 m² supports the rental assumption.
 6. Its selection is consistent with the project's priority of minimizing estimated total operating cost.
 
-# 7\. Conclusion
+# 6\. Conclusion
 
 This study has evaluated six candidate industrial areas for a centralized hospital laundry facility serving seven healthcare facilities in Vallès Occidental.
 
