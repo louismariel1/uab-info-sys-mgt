@@ -928,32 +928,39 @@ The results presented in this section should be interpreted in light of the foll
 - Coverage percentages measure geographical proximity, not actual delivery times or service performance.
 - The analysis does not account for traffic congestion, vehicle restrictions, loading requirements or delivery schedules.
 
-## 7 Summary Results and Final Selection
+# 7 Summary Results and Final Selection
 
-# 7.1 Summary of the Four Methods and their Significance
+## 7.1 Summary of the Four Methods and their Significance
 
 The four approaches produce different preferred locations because they evaluate different aspects of the location decision.
 
-| Method | Preferred Candidate | Main Objective |
-| --- | --- | --- |
-| Centre of Gravity | Camí de Can Coniller, 08220 Terrassa, Barcelona | Weighted geographical centrality |
-| Factor-Rating | IA-S2 – Can Roqueta | Weighted qualitative suitability |
-| **Cost Model** | **IA-R2 – Cova Solera** | **Lowest estimated annual equivalent cost** |
-| Graph-Based geographical proxies | IA-T – Els Bellots | Geographical proximity and coverage |
+| Method | Preferred Candidate | Main Objective | Key Result |
+| --- | --- | --- | --- |
+| Centre of Gravity | Camí de Can Coniller, 08220 Terrassa, Barcelona | Weighted geographical centrality | Theoretical demand-weighted geographical balance point |
+| Factor-Rating | IA-S2 – Can Roqueta | Weighted qualitative suitability | Highest weighted score: 4.20/5 |
+| Cost Model | IA-R2 – Cova Solera | Lowest estimated annual equivalent cost | €1,821,014/year |
+| Simple Median Model | IA-T – Els Bellots | Minimum weighted geographical distance | Lowest weighted mean distance: 4.48 km |
+| Coverage Model | IA-T – Els Bellots | Geographical demand coverage | Highest baseline coverage: 87.9% within 7.5 km |
 
 The results are not contradictory. Each method addresses a different decision objective.
 
-The Centre of Gravity Method provides a theoretical geographical reference.
+The Centre of Gravity Method provides a theoretical geographical reference based on the weighted coordinates of the seven healthcare facilities. It identifies a geographical balance point rather than an existing industrial property.
 
-The Factor-Rating Method favours Can Roqueta because of its combined qualitative assessment of accessibility, industrial compatibility and evidence of suitable premises.
+The Factor-Rating Method favours Can Roqueta because of its combined qualitative assessment of accessibility, industrial compatibility and evidence of suitable premises. It achieves the highest weighted score of 4.20/5.
 
-The preliminary geographical distance analysis favours Els Bellots because of its proximity to the hospital demand points.
+The Simple Median Model favours Els Bellots because it achieves the lowest weighted mean geographical distance to the hospital demand points, at 4.48 km.
 
-The Cost Model favours Cova Solera in Rubí because its estimated rental and transportation costs produce the lowest total annual equivalent cost.
+The Coverage Model also favours Els Bellots, which covers 87.9% of weighted hospital demand within the baseline 7.5 km radius. Its coverage increases to 100% when the radius is extended to 10 km.
+
+These two geographical models provide complementary evidence supporting Els Bellots as the strongest candidate in terms of proximity and geographical coverage. However, their results are based on straight-line geographical distances rather than validated road-network routes.
+
+The Cost Model favours Cova Solera in Rubí because its estimated rental and transportation costs produce the lowest total annual equivalent cost of €1,821,014. Its advantage over the second-ranked candidate, Can Jardí, is €15,707 per year.
 
 The project owner's stated priority is to compare transport-supply, transport-distribution and operating costs, including fixed, variable and establishment costs.
 
-**Consequently, the Cost Model is the most appropriate method for determining the final location under the project's adopted decision priorities.**
+Consequently, the Cost Model is the most appropriate method for determining the final location under the project's adopted decision priorities.
+
+The geographical and qualitative methods provide complementary evidence for evaluating the alternatives, but they do not override the economic selection criterion established for this study.
 
 ## 7.2 Cost Model Selection and Assumptions
 
