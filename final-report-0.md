@@ -76,12 +76,6 @@ The project owner's stated priority is:
 
 Accordingly, the Cost Model determines the final recommendation.
 
-## 1.3 Scope
-
-The study provides an academic comparison of six candidate industrial areas using geographical information, indicative property rental references and explicit planning assumptions.
-
-It is not a detailed engineering design, property inspection, regulatory approval or commercial feasibility assessment.
-
 ---
 
 # 2. Data Collection and Assumptions
