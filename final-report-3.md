@@ -112,9 +112,7 @@ The three largest service points (H01, H02 and H03) account for 1,925 beds.
 Their percentage of total demand weight is:
 
 $$
-\frac{861+460+604}{2515}\times100
-=
-76.54\%
+\frac{861+460+604}{2515}\times100 = 76.54\%
 $$
 
 Approximately 76.5% of the total demand weight is therefore concentrated in these three facilities.
