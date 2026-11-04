@@ -186,7 +186,9 @@ Metric geographical calculations use ETRS89 / UTM Zone 31N (EPSG:25831).
 | IA-R2 | Central/southern industrial corridor / Cova Solera | Rubí         |
 | IA-C  | Cerdanyola industrial corridor / Parc de l'Alba    | Cerdanyola   |
 
-The coordinates represent candidate industrial areas rather than precise building entrances. The six candidate areas were identified within the defined regional study scope. Each candidate is evaluated against the complete network of seven healthcare facilities, irrespective of the municipality in which the candidate area or healthcare facility is located.
+The coordinates represent candidate industrial areas rather than precise building entrances. 
+The six candidate areas were identified within the defined regional study scope. 
+Each candidate is evaluated against the complete network of seven healthcare facilities, irrespective of the municipality in which the candidate area or healthcare facility is located.
 
 ## 2.4 General Modelling Assumptions
 
