@@ -280,7 +280,7 @@ The nearest identifiable address returned by reverse geocoding is: **Camí de Ca
 
 ## 3.4 Interpretation
 
-The Centre of Gravity identifies **Camí de Can Coniller, 08220 Terrassa, Barcelona, Spain.** as the geographic  weighted center of gravity for all seven hospital facilities. The identified location would serve as the location of the laundry facility if the center of gravitiy method was the deciding factor for the final location. 
+The Centre of Gravity identifies **Camí de Can Coniller, 08220 Terrassa, Barcelona, Spain.** as the geographic  weighted center of gravity for all seven hospital facilities. The identified location would serve as the location of the laundry facility if the center of gravitiy method was the deciding factor for the final location. However as already established in the executive summary, theee business owner follows the Cost Factor method strategy.
 
 
 ---
