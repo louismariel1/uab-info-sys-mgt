@@ -694,11 +694,32 @@ The purpose of this section is to evaluate geographical proximity and potential 
 
 *methodology*: The current numerical analysis uses straight-line geographical distances between representative hospital and industrial-area coordinates. Although the models are graph-related, a fully implemented road-network analysis would require a road-network graph and shortest-path calculations. The results presented here should therefore be interpreted as reflecting the limitations of the usage of the straight-line geographical distances instead of real road-network distances.
 
-## 6.1 Simple Median Model
+The following is the consolidated, report-ready Section 6. It uses the corrected terminology Discrete Weighted Simple Median Model and Geographical Coverage Model, rather than describing the analysis as a fully implemented graph-based model.
+
+The numerical results are retained from the independently recalculated geographical screening dataset. The methodological limitations are made explicit, particularly the distinction between straight-line geographical distances and road-network shortest-path distances.
+
+Writing
+
+# 6\. Geographical Distance and Coverage Models
+
+Two complementary geographical models are used to evaluate the proximity of the six candidate industrial areas to the seven healthcare facilities:
+
+1. Discrete Weighted Simple Median Model.
+2. Geographical Coverage Model.
+
+Both models use the seven hospital service points, weighted by their respective bed capacities, and the six candidate industrial areas.
+
+The purpose of this section is to evaluate geographical proximity and potential service coverage independently of the economic comparison presented in Section 5.
+
+**Methodological qualification:** The numerical analysis presented in this section uses geodesic straight-line distances calculated from representative hospital and industrial-area coordinates. Although the models are related to graph-based location analysis, a fully implemented road-network model would require a road-network graph and shortest-path calculations between the actual facility entrances and hospital locations.
+
+Consequently, the results should be interpreted as preliminary geographical screening results rather than definitive road-network optimization outcomes.
+
+## 6.1 Discrete Weighted Simple Median Model
 
 ### 6.1.1 Methodology
 
-The Simple Median Model identifies which of the six candidate locations minimizes the total demand-weighted geographical distance to the healthcare facilities.
+The Discrete Weighted Simple Median Model identifies which of the six predetermined candidate locations minimizes the total demand-weighted geographical distance to the healthcare facilities.
 
 This is a discrete weighted 1-median comparison because the analysis evaluates six predetermined candidate locations rather than searching for an unrestricted optimal point.
 
@@ -729,7 +750,7 @@ $$
 \sum_{i=1}^{7}W_i=2,515
 $$
 
-The calculation uses geodesic straight-line distances derived from the geographical coordinates.
+The calculation uses geodesic straight-line distances derived from the geographical coordinates of the hospitals and candidate industrial areas.
 
 ### 6.1.2 Results
 
@@ -737,14 +758,14 @@ The independently recalculated weighted mean distances are presented below.
 
 | Rank | Candidate | Weighted Mean Distance |
 | --- | --- | --- |
-| 1 | IA-T — Els Bellots | 4.48 km |
+| 1 | **IA-T — Els Bellots** | **4.48 km** |
 | 2 | IA-S1 — Sant Pau de Riu-sec | 6.22 km |
 | 3 | IA-S2 — Can Roqueta | 6.75 km |
-| 4 | IA-C — Parc de l'Alba | 8.46 km |
+| 4 | IA-C — Cerdanyola Industrial Corridor / Parc de l'Alba | 8.46 km |
 | 5 | IA-R2 — Cova Solera | 8.61 km |
 | 6 | IA-R1 — Can Jardí | 9.37 km |
 
-Note: Can Roqueta's independently recalculated result is 6.75 km, correcting the previous reported value of 6.74 km due to rounding.
+**Data correction:** Can Roqueta's independently recalculated weighted mean distance is 6.75 km, correcting the previously reported value of 6.74 km.
 
 ### 6.1.3 Result
 
@@ -762,19 +783,19 @@ Els Bellots benefits from its geographical position between the main hospital de
 
 Its relatively central position results in the lowest demand-weighted geographical distance among the six candidate industrial areas.
 
-This makes Els Bellots the strongest candidate under the Simple Median Model.
+This makes Els Bellots the strongest candidate under the Discrete Weighted Simple Median Model.
 
 However, geographical proximity does not necessarily translate directly into the shortest operational transport routes. Road-network configuration, access restrictions, traffic conditions and travel times may influence the actual result.
 
-The ranking should therefore be recalculated using road-network shortest-path distances before being treated as a definitive transport optimization result.
+The ranking should therefore be recalculated using road-network shortest-path distances between actual facility entrances and hospital service points before being treated as a definitive transport optimization result.
 
-## 6.2 Coverage Model
+## 6.2 Geographical Coverage Model
 
 ### 6.2.1 Methodology
 
-The Coverage Model evaluates the proportion of hospital demand located within a specified geographical distance of each candidate laundry facility.
+The Geographical Coverage Model evaluates the proportion of hospital demand located within a specified geographical distance of each candidate laundry facility.
 
-Unlike the Simple Median Model, which minimizes the overall weighted distance, the Coverage Model measures how much demand can be reached within a predefined distance threshold.
+Unlike the Simple Median Model, which minimizes the overall weighted distance, the Coverage Model measures how much demand is located within a predefined distance threshold.
 
 For candidate $j$ and coverage radius $R$:
 
@@ -811,13 +832,13 @@ The baseline coverage results using the 7.5 km radius are:
 
 | Rank | Candidate | Covered Beds | Coverage |
 | --- | --- | --- | --- |
-| 1 | IA-T — Els Bellots | 2,211 | 87.9% |
+| 1 | **IA-T — Els Bellots** | **2,211** | **87.9%** |
 | 2 | IA-S1 — Sant Pau de Riu-sec | 1,834 | 72.9% |
 | 3 | IA-S2 — Can Roqueta | 1,530 | 60.8% |
-| 4 | IA-C — Parc de l'Alba | 513 | 20.4% |
+| 4 | IA-C — Cerdanyola Industrial Corridor / Parc de l'Alba | 513 | 20.4% |
 | 5 | IA-R1 — Can Jardí | 442 | 17.6% |
 | 5 | IA-R2 — Cova Solera | 442 | 17.6% |
-|  | Total hospital demand | 2,515 | 100% |
+|  | **Total hospital demand** | **2,515** | **100%** |
 
 For Els Bellots, the coverage percentage is:
 
@@ -834,7 +855,7 @@ The same calculation is applied to all six candidates.
 
 ### 6.2.3 Sensitivity to Coverage Radius
 
-To examine how the geographical coverage changes with the selected distance threshold, the calculation is repeated using three alternative radii:
+To examine how geographical coverage changes with the selected distance threshold, the calculation is repeated using three alternative radii:
 
 - 5 km: More restrictive geographical coverage.
 - 7.5 km: Baseline coverage assumption.
@@ -849,11 +870,11 @@ The resulting coverage percentages are:
 | IA-S2 — Can Roqueta | 37.1% | 60.8% | 60.8% |
 | IA-R1 — Can Jardí | 12.1% | 17.6% | 38.9% |
 | IA-R2 — Cova Solera | 17.6% | 17.6% | 65.8% |
-| IA-C — Parc de l'Alba | 5.5% | 20.4% | 72.9% |
+| IA-C — Cerdanyola Industrial Corridor / Parc de l'Alba | 5.5% | 20.4% | 72.9% |
 
 The results show that geographical coverage increases or remains unchanged as the radius increases.
 
-Els Bellots and Sant Pau achieve complete coverage at 10 km, while Can Roqueta remains at 60.8%.
+Els Bellots and Sant Pau de Riu-sec achieve complete coverage at 10 km, while Can Roqueta remains at 60.8%.
 
 ### 6.2.4 Result
 
@@ -869,7 +890,7 @@ This indicates that Els Bellots provides the strongest geographical coverage of 
 
 ### 6.2.5 Interpretation
 
-The Coverage Model reinforces the findings of the Simple Median Model.
+The Geographical Coverage Model reinforces the findings of the Discrete Weighted Simple Median Model.
 
 Els Bellots performs particularly well because its geographical position allows it to cover a substantial proportion of hospital demand within a relatively short distance.
 
@@ -893,9 +914,9 @@ The main findings are summarized below:
 
 | Evaluation Method | Preferred Candidate | Main Result |
 | --- | --- | --- |
-| Simple Median Model | IA-T — Els Bellots | Lowest weighted mean distance: 4.48 km |
-| Coverage Model | IA-T — Els Bellots | Highest baseline coverage: 87.9% |
-| Extended coverage (10 km) | IA-T and IA-S1 | Both achieve 100% coverage |
+| Discrete Weighted Simple Median Model | IA-T — Els Bellots | Lowest weighted mean distance: 4.48 km |
+| Geographical Coverage Model | IA-T — Els Bellots | Highest baseline coverage: 87.9% |
+| Extended geographical coverage (10 km) | IA-T and IA-S1 | Both achieve 100% coverage |
 
 The agreement between the two models provides additional geographical evidence in favour of Els Bellots.
 
@@ -911,22 +932,13 @@ However, the Cost Model presented in Section 5 identifies Cova Solera as the can
 
 The two results are not contradictory because they evaluate different decision criteria:
 
-- The Simple Median and Coverage Models evaluate geographical proximity and demand coverage.
+- The Discrete Weighted Simple Median and Geographical Coverage Models evaluate geographical proximity and potential demand coverage.
 - The Cost Model evaluates estimated annual rental, transportation, operating and establishment costs.
 
 The project owner's principal decision priority is minimizing the estimated total annual operating cost. Consequently, the Cost Model remains the controlling method for the final location recommendation.
 
-The geographical analysis identifies Els Bellots as the strongest candidate in terms of proximity and coverage, while Cova Solera remains the preferred location under the project's economic decision criteria.
+The geographical analysis identifies Els Bellots as the strongest candidate in terms of proximity and geographical coverage, while Cova Solera remains the preferred location under the project's economic decision criteria.
 
-### 6.3.2 Methodological Limitations
-
-The results presented in this section should be interpreted in light of the following limitations:
-
-- Distances are based on representative hospital and industrial-area coordinates rather than confirmed building entrances.
-- Straight-line geographical distances do not account for actual road configurations.
-- The 7.5 km baseline coverage radius is a modelling assumption.
-- Coverage percentages measure geographical proximity, not actual delivery times or service performance.
-- The analysis does not account for traffic congestion, vehicle restrictions, loading requirements or delivery schedules.
 
 # 7 Summary Results and Final Selection
 
