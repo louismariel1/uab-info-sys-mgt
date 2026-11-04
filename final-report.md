@@ -681,7 +681,7 @@ The full comparison is:
 
 This indicates that Cova Solera is the lowest-cost candidate under the adopted assumptions, but its economic advantage is relatively modest.
 
-## 5.7 Interpretation and Limitations
+## 5.7 Interpretation and Assumptions
 
 The Cost Model identifies IA-R2, Cova Solera in Rubí, as the candidate with the lowest estimated annual equivalent cost.
 
@@ -700,9 +700,7 @@ In particular:
 
 ---
 
-# 6\. Comparison of Results
-
-## 6.1 Summary of the Four Methods
+## 5.8 Summary of the Four Methods
 
 The four approaches produce different preferred locations because they evaluate different aspects of the location decision.
 
