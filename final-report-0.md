@@ -730,7 +730,7 @@ For Els Bellots:
 
 $$\
 Coverage\_{\text{IA-T}}=\
-\frac{2211}{2515}\times100\ = 87.9%
+\frac{2211}{2515}\times100\ = 87.9\%
 $$
 
 $$
