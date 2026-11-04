@@ -309,38 +309,7 @@ $$
 \boxed{41.544555^\circ\text{ N},\quad2.064943^\circ\text{ E}}
 $$
 
-## 3.4 Independent Verification
-
-The recalculation reproduces the original Centre of Gravity result.
-
-| Parameter | Original report | Independent recalculation |
-| --- | --- | --- |
-| Easting | 422,010.609 m | 422,010.6094 m |
-| Northing | 4,599,632.802 m | 4,599,632.8017 m |
-| Latitude | 41.544555° N | 41.5445552556° N |
-| Longitude | 2.064943° E | 2.0649425975° E |
-
-There is no discrepancy at the reported six-decimal geographical precision.
-
-## 3.5 Interpretation
-
-The Centre of Gravity Method provides a theoretical geographical reference between the main healthcare demand concentrations of Sabadell and Terrassa.
-
-The result is influenced by the concentration of demand around H01, H02 and H03.
-
-However, the mathematical formulation minimizes the weighted sum of squared Euclidean distances. It should therefore be interpreted as a geographical reference rather than a direct estimate of minimum real-world transport cost.
-
-The method does not account directly for:
-
-- Road-network geometry.
-- Traffic conditions.
-- Actual travel times.
-- Industrial zoning.
-- Building availability.
-- Property prices.
-- Facility infrastructure.
-
-The Centre of Gravity is therefore useful for preliminary geographical screening but does not determine the final industrial property.
+Using reverse geocoding, the nearest identifiable address is Camí de Can Coniller, 08220 Terrassa, Barcelona, Spain. The Centre of Gravity is therefore useful for preliminary geographical screening but does not determine the final industrial property.
 
 ---
 
