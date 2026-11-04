@@ -282,9 +282,7 @@ $$\
 \boxed{41.544555^\circ\text{ N},\quad2.064943^\circ\text{ E}}\
 $$
 
-The nearest identifiable address returned by reverse geocoding is:
-
-**Camí de Can Coniller, 08220 Terrassa, Barcelona, Spain.**
+The nearest identifiable address returned by reverse geocoding is: **Camí de Can Coniller, 08220 Terrassa, Barcelona, Spain.**
 
 This is a reference to the theoretical geographical point, not an identified industrial property.
 
