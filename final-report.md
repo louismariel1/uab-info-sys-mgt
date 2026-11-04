@@ -1153,32 +1153,6 @@ The indicative property size is consistent with the common 1,500 m² reference u
 
 The selection is based on the available geographical, industrial and property-market evidence and the comparative Cost Model.
 
-Detailed engineering, building-condition and regulatory verification are outside the scope of this academic location study.
-
-## 8.3 Property Validation Requirements
-
-The following items should be verified before a lease or acquisition decision:
-
-| Validation Item | Current Status |
-| --- | --- |
-| Industrial building exists | Supported by property listing |
-| Candidate industrial area | Identified |
-| Indicative floor area | Approximately 1,500 m² |
-| Advertised rental price | Approximately €6,000/month |
-| Equivalent rental rate | €4.00/m²/month |
-| Exact property address | Requires confirmation |
-| Exact building coordinates | Requires confirmation |
-| Current availability | Requires direct revalidation |
-| Industrial permitted use | Requires verification |
-| Water supply capacity | Not verified |
-| Wastewater capacity | Not verified |
-| Electrical and thermal capacity | Not verified |
-| Laundry-specific technical suitability | Not verified |
-| Fire safety and building compliance | Not verified |
-| Final total operating cost | Not independently established |
-
-The selected property reference supports the geographical and rental assumptions of the study but should not be interpreted as final property approval.
-
 ---
 
 # 9\. Final Recommendation
@@ -1218,16 +1192,6 @@ Cova Solera is recommended because:
 5. An identifiable industrial warehouse property reference of approximately 1,500 m² supports the rental assumption.
 6. Its selection is consistent with the project's priority of minimizing estimated total operating cost.
 
-## 9.3 Alternative Locations
-
-Els Bellots should remain an important geographical alternative because it provides the lowest weighted mean distance and highest hospital coverage.
-
-Can Roqueta should remain a strong industrial alternative because it obtains the highest Factor-Rating score.
-
-Can Jardí should remain an economic alternative because it ranks second in the Cost Model.
-
-The final building should be selected only after actual premises have been compared against the technical and operational requirements of the laundry facility.
-
 ## 9.4 Principal Risks and Limitations
 
 The principal limitations of the current study are:
@@ -1259,28 +1223,6 @@ Four complementary location-analysis approaches were applied:
 3. Cost Model.
 4. Graph-Based Location Analysis using preliminary geographical distance and coverage proxies.
 
-The Centre of Gravity calculation was independently reproduced using weighted projected coordinates in ETRS89 / UTM Zone 31N (EPSG:25831), confirming the reported theoretical location of 41.544555° N, 2.064943° E.
-
-The Factor-Rating Method identified Can Roqueta as the highest-scoring candidate, with a verified score of 4.20/5.
-
-The geographical distance analysis identified Els Bellots as the strongest candidate under the preliminary weighted-distance and coverage indicators.
-
-The independent geographical recalculation confirmed all coverage percentages and identified only one minor rounding correction: Can Roqueta's weighted mean distance changes from 6.74 km to 6.75 km.
-
-The Cost Model identified Cova Solera in Rubí as the candidate with the lowest estimated annual equivalent cost:
-
-$$
-\boxed{€1,821,014/year}
-$$
-
-This result is consistent with the project owner's priority of comparing supply transport, distribution transport and operating costs, including fixed, variable and establishment costs.
-
-The study therefore recommends an **industrial warehouse in Polígon Industrial de Cova Solera, Rubí (Barcelona, Spain)** as the preferred location.
-
-The recommendation is based on the available property-market reference and the comparative model assumptions. It is an academic location-selection decision and does not constitute a confirmed property acquisition, lease commitment or detailed operational feasibility approval.
-
-The relatively small annual cost difference between Cova Solera and Can Jardí should also be considered when interpreting the result.
-
 **Final decision: Cova Solera, Rubí, is the preferred candidate because it achieves the lowest estimated total annual equivalent cost under the adopted project assumptions.**
 
 The next stage should focus on confirming the exact property, validating its availability, checking technical and regulatory suitability, and replacing the preliminary transport estimates with actual road-network routes and transport quotations.
@@ -1301,14 +1243,3 @@ The following public sources were used or identified during the project research
 8. GeographicLib / WGS84 geodesic calculation conventions, used as the reference methodology for the independent distance recalculation.
 
 ---
-
-**End of updated report.**
-
-## Important final technical note
-
-There are two matters I would keep visible before submitting the report:
-
-- Transport-cost reproducibility: The annual transport estimates have been retained, but the detailed nearest-neighbour tour sequences, individual route distances and supplier-hub coordinates are not included in the supplied material. The transport calculations should therefore not be described as independently verified.
-- Property selection: Cova Solera is the selected industrial area, supported by an advertised 1,500 m² property reference. The actual building should remain subject to availability, address, utilities and technical validation.
-
-The geographical recalculation and Factor-Rating arithmetic are incorporated, and the consensus-coordinate section has been excluded as requested.
