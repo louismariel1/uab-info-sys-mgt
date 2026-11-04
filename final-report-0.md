@@ -30,7 +30,7 @@ Each method evaluates a different aspect of the location decision.
 
 | Method              | Preferred result                | Main finding                                                |
 | ------------------- | ------------------------------- | ----------------------------------------------------------- |
-| Centre of Gravity   | Theoretical point near Terrassa | Demand-weighted geographical balance                        |
+| Centre of Gravity   |  Camí de Can Coniller, 08220 Terrassa | Demand-weighted geographical balance                        |
 | Factor-Rating       | IA-S2 — Can Roqueta             | Highest qualitative score: 4.20/5                           |
 | Cost Model          | IA-R2 — Cova Solera             | Lowest estimated annual equivalent cost                     |
 | Geographic Coverage | IA-T — Els Bellots              | Lowest weighted mean distance and highest baseline coverage |
