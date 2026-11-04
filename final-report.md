@@ -681,26 +681,256 @@ The full comparison is:
 
 This indicates that Cova Solera is the lowest-cost candidate under the adopted assumptions, but its economic advantage is relatively modest.
 
-## 5.7 Cost Model Selection and Assumptions
+# 6. Distance and Coverage Models
 
-The Cost Model is of strategic significance for the business owner. It identifies IA-R2, Cova Solera in Rubí, as the candidate with the lowest estimated annual equivalent cost.
+Two complementary geographical models are used to evaluate the proximity of the six candidate industrial areas to the seven healthcare facilities:
 
-Its principal advantage is the comparatively low estimated rental cost, combined with relatively low distribution transport costs.
+1. Simple Median Model.
+2. Coverage Model.
 
-The result is based on the adopted assumptions.
+Both models use the seven hospital service points, weighted by their respective bed capacities, and the six candidate industrial areas.
 
-In particular:
+The purpose of this section is to evaluate geographical proximity and potential service coverage independently of the economic comparison presented in Section 5.
 
-- Transport distances have not been validated against actual road-network routes.
-- The road-distance conversion factor is a generalized assumption.
-- Transport costs are not based on provider quotations.
-- Rental prices are indicative rather than confirmed contractual values.
-- Fixed and variable operating costs are common planning assumptions.
-- Establishment costs are annualised without a detailed financing or depreciation model.
+Important methodological qualification: The current numerical analysis uses straight-line geographical distances between representative hospital and industrial-area coordinates. Although the models are graph-related in their conceptual application, a fully implemented road-network analysis would require a road-network graph and shortest-path calculations. The results presented here should therefore be interpreted as preliminary geographical proxies rather than definitive road-network optimization results.
 
----
+## 6.1 Simple Median Model
 
-## 5.8 Summary of the Four Methods and their Significance
+### 6.1.1 Methodology
+
+The Simple Median Model identifies which of the six candidate locations minimizes the total demand-weighted geographical distance to the healthcare facilities.
+
+This is a discrete weighted 1-median comparison because the analysis evaluates six predetermined candidate locations rather than searching for an unrestricted optimal point.
+
+For candidate location $j$, the total weighted distance is:
+
+$$
+D_j=\sum_{i=1}^{n}W_i d_{ij}
+$$
+
+Where:
+
+- $D_j$ = Total weighted distance for candidate $j$.
+- $W_i$ = Demand weight of hospital $i$, represented by its number of beds.
+- $d_{ij}$ = Geographical distance between hospital $i$ and candidate $j$.
+- $n$ = Number of healthcare facilities (7).
+
+For easier interpretation, the results are expressed as weighted mean distance:
+
+$$
+\bar d_j=
+\frac{\sum_{i=1}^{n}W_i d_{ij}}
+{\sum_{i=1}^{n}W_i}
+$$
+
+The total demand weight is:
+
+$$
+\sum_{i=1}^{7}W_i=2,515
+$$
+
+The calculation uses geodesic straight-line distances derived from the geographical coordinates.
+
+### 6.1.2 Results
+
+The independently recalculated weighted mean distances are presented below.
+
+| Rank | Candidate | Weighted Mean Distance |
+| --- | --- | --- |
+| 1 | IA-T — Els Bellots | 4.48 km |
+| 2 | IA-S1 — Sant Pau de Riu-sec | 6.22 km |
+| 3 | IA-S2 — Can Roqueta | 6.75 km |
+| 4 | IA-C — Parc de l'Alba | 8.46 km |
+| 5 | IA-R2 — Cova Solera | 8.61 km |
+| 6 | IA-R1 — Can Jardí | 9.37 km |
+
+Note: Can Roqueta's independently recalculated result is 6.75 km, correcting the previous reported value of 6.74 km due to rounding.
+
+### 6.1.3 Result
+
+The best candidate under the weighted geographical distance comparison is:
+
+$$
+\boxed{\text{IA-T — Els Bellots}}
+$$
+
+Els Bellots achieves the lowest weighted mean straight-line distance to the seven healthcare facilities, at 4.48 km.
+
+### 6.1.4 Interpretation
+
+Els Bellots benefits from its geographical position between the main hospital demand concentrations in Terrassa and Sabadell.
+
+Its relatively central position results in the lowest demand-weighted geographical distance among the six candidate industrial areas.
+
+This makes Els Bellots the strongest candidate under the Simple Median Model.
+
+However, geographical proximity does not necessarily translate directly into the shortest operational transport routes. Road-network configuration, access restrictions, traffic conditions and travel times may influence the actual result.
+
+The ranking should therefore be recalculated using road-network shortest-path distances before being treated as a definitive transport optimization result.
+
+## 6.2 Coverage Model
+
+### 6.2.1 Methodology
+
+The Coverage Model evaluates the proportion of hospital demand located within a specified geographical distance of each candidate laundry facility.
+
+Unlike the Simple Median Model, which minimizes the overall weighted distance, the Coverage Model measures how much demand can be reached within a predefined distance threshold.
+
+For candidate $j$ and coverage radius $R$:
+
+$$
+C_j(R)=\sum_{i=1}^{n}W_i I(d_{ij}\leq R)
+$$
+
+Where:
+
+- $C_j(R)$ = Total covered demand for candidate $j$.
+- $W_i$ = Demand weight of hospital $i$, represented by its number of beds.
+- $d_{ij}$ = Geographical distance between hospital $i$ and candidate $j$.
+- $R$ = Selected coverage radius.
+- $I(\cdot)$ = Indicator function, equal to 1 when the hospital is within the coverage radius and 0 otherwise.
+
+The coverage percentage is calculated as:
+
+$$
+Coverage_j(R)=
+\frac{C_j(R)}{2,515}\times100
+$$
+
+The baseline coverage radius adopted for the study is:
+
+$$
+\boxed{R=7.5\text{ km}}
+$$
+
+This distance is a project modelling assumption used to compare the candidate locations. It is not a statutory requirement or an established operational service standard.
+
+### 6.2.2 Baseline Coverage Results
+
+The baseline coverage results using the 7.5 km radius are:
+
+| Rank | Candidate | Covered Beds | Coverage |
+| --- | --- | --- | --- |
+| 1 | IA-T — Els Bellots | 2,211 | 87.9% |
+| 2 | IA-S1 — Sant Pau de Riu-sec | 1,834 | 72.9% |
+| 3 | IA-S2 — Can Roqueta | 1,530 | 60.8% |
+| 4 | IA-C — Parc de l'Alba | 513 | 20.4% |
+| 5 | IA-R1 — Can Jardí | 442 | 17.6% |
+| 5 | IA-R2 — Cova Solera | 442 | 17.6% |
+|  | Total hospital demand | 2,515 | 100% |
+
+For Els Bellots, the coverage percentage is:
+
+$$
+Coverage_{\text{IA-T}}=
+\frac{2,211}{2,515}\times100
+$$
+
+$$
+\boxed{Coverage_{\text{IA-T}}=87.9\%}
+$$
+
+The same calculation is applied to all six candidates.
+
+### 6.2.3 Sensitivity to Coverage Radius
+
+To examine how the geographical coverage changes with the selected distance threshold, the calculation is repeated using three alternative radii:
+
+- 5 km: More restrictive geographical coverage.
+- 7.5 km: Baseline coverage assumption.
+- 10 km: Extended geographical coverage.
+
+The resulting coverage percentages are:
+
+| Candidate | 5 km | 7.5 km | 10 km |
+| --- | --- | --- | --- |
+| IA-T — Els Bellots | 45.4% | 87.9% | 100% |
+| IA-S1 — Sant Pau de Riu-sec | 42.5% | 72.9% | 100% |
+| IA-S2 — Can Roqueta | 37.1% | 60.8% | 60.8% |
+| IA-R1 — Can Jardí | 12.1% | 17.6% | 38.9% |
+| IA-R2 — Cova Solera | 17.6% | 17.6% | 65.8% |
+| IA-C — Parc de l'Alba | 5.5% | 20.4% | 72.9% |
+
+The results show that geographical coverage increases or remains unchanged as the radius increases.
+
+Els Bellots and Sant Pau achieve complete coverage at 10 km, while Can Roqueta remains at 60.8%.
+
+### 6.2.4 Result
+
+Els Bellots achieves the highest baseline geographical coverage:
+
+$$
+\boxed{87.9\%\text{ of weighted hospital demand}}
+$$
+
+It also achieves 100% coverage at the extended 10 km radius.
+
+This indicates that Els Bellots provides the strongest geographical coverage of the six candidates under the tested straight-line distance assumptions.
+
+### 6.2.5 Interpretation
+
+The Coverage Model reinforces the findings of the Simple Median Model.
+
+Els Bellots performs particularly well because its geographical position allows it to cover a substantial proportion of hospital demand within a relatively short distance.
+
+The sensitivity analysis also demonstrates that the relative performance of some candidates changes considerably as the coverage radius increases.
+
+For example, Cova Solera increases its coverage from 17.6% at 7.5 km to 65.8% at 10 km.
+
+This demonstrates why the choice of coverage radius is important when interpreting geographical proximity.
+
+Nevertheless, the analysis measures straight-line geographical coverage rather than actual transport accessibility. A final operational assessment should use road-network distances or travel times, particularly because hospital laundry collection and delivery require regular vehicle movements.
+
+## 6.3 Overall Geographical Results
+
+Both geographical models identify the same preferred candidate:
+
+$$
+\boxed{\text{IA-T — Els Bellots}}
+$$
+
+The main findings are summarized below:
+
+| Evaluation Method | Preferred Candidate | Main Result |
+| --- | --- | --- |
+| Simple Median Model | IA-T — Els Bellots | Lowest weighted mean distance: 4.48 km |
+| Coverage Model | IA-T — Els Bellots | Highest baseline coverage: 87.9% |
+| Extended coverage (10 km) | IA-T and IA-S1 | Both achieve 100% coverage |
+
+The agreement between the two models provides additional geographical evidence in favour of Els Bellots.
+
+However, both models use the same underlying straight-line geographical distance approximation. Their agreement should therefore not be interpreted as two independent validations of actual road-network accessibility.
+
+### 6.3.1 Relevance to the Final Location Decision
+
+The geographical results should be interpreted alongside the findings of the other location-analysis methods.
+
+Els Bellots is the strongest candidate geographically because it minimizes weighted mean distance and maximizes baseline geographical coverage.
+
+However, the Cost Model presented in Section 5 identifies Cova Solera as the candidate with the lowest estimated annual equivalent cost.
+
+The two results are not contradictory because they evaluate different decision criteria:
+
+- The Simple Median and Coverage Models evaluate geographical proximity and demand coverage.
+- The Cost Model evaluates estimated annual rental, transportation, operating and establishment costs.
+
+The project owner's principal decision priority is minimizing the estimated total annual operating cost. Consequently, the Cost Model remains the controlling method for the final location recommendation.
+
+The geographical analysis identifies Els Bellots as the strongest candidate in terms of proximity and coverage, while Cova Solera remains the preferred location under the project's economic decision criteria.
+
+### 6.3.2 Methodological Limitations
+
+The results presented in this section should be interpreted in light of the following limitations:
+
+- Distances are based on representative hospital and industrial-area coordinates rather than confirmed building entrances.
+- Straight-line geographical distances do not account for actual road configurations.
+- The 7.5 km baseline coverage radius is a modelling assumption.
+- Coverage percentages measure geographical proximity, not actual delivery times or service performance.
+- The analysis does not account for traffic congestion, vehicle restrictions, loading requirements or delivery schedules.
+
+## 7 Summary Results and Final Selection
+
+# 7.1 Summary of the Four Methods and their Significance
 
 The four approaches produce different preferred locations because they evaluate different aspects of the location decision.
 
@@ -725,7 +955,26 @@ The project owner's stated priority is to compare transport-supply, transport-di
 
 **Consequently, the Cost Model is the most appropriate method for determining the final location under the project's adopted decision priorities.**
 
-## 5.10 Selected Location and Rationale
+## 7.2 Cost Model Selection and Assumptions
+
+The Cost Model is of strategic significance for the business owner. It identifies IA-R2, Cova Solera in Rubí, as the candidate with the lowest estimated annual equivalent cost.
+
+Its principal advantage is the comparatively low estimated rental cost, combined with relatively low distribution transport costs.
+
+The result is based on the adopted assumptions.
+
+In particular:
+
+- Transport distances have not been validated against actual road-network routes.
+- The road-distance conversion factor is a generalized assumption.
+- Transport costs are not based on provider quotations.
+- Rental prices are indicative rather than confirmed contractual values.
+- Fixed and variable operating costs are common planning assumptions.
+- Establishment costs are annualised without a detailed financing or depreciation model.
+
+---
+
+## 7.3 Selected Location and Rationale
 
 The selected location is: 
 **Industrial warehouse in Polígon Industrial de Cova Solera, Rubí (Barcelona, Spain).** This corresponds to candidate IA-R2.
@@ -767,7 +1016,7 @@ Cova Solera is selected because:
 5. An identifiable industrial warehouse property reference of approximately 1,500 m² supports the rental assumption.
 6. Its selection is consistent with the project's priority of minimizing estimated total operating cost.
 
-# 6\. Conclusion
+# 8\. Conclusion
 
 This study has evaluated six candidate industrial areas for a centralized hospital laundry facility serving seven healthcare facilities in Vallès Occidental.
 
