@@ -692,7 +692,7 @@ Both models use the seven hospital service points, weighted by their respective 
 
 The purpose of this section is to evaluate geographical proximity and potential service coverage independently of the economic comparison presented in Section 5.
 
-Important methodological qualification: The current numerical analysis uses straight-line geographical distances between representative hospital and industrial-area coordinates. Although the models are graph-related in their conceptual application, a fully implemented road-network analysis would require a road-network graph and shortest-path calculations. The results presented here should therefore be interpreted as reflecting the limitations of the usage of the straight-line geographical distances instead of real road network distances.
+*methodology*: The current numerical analysis uses straight-line geographical distances between representative hospital and industrial-area coordinates. Although the models are graph-related, a fully implemented road-network analysis would require a road-network graph and shortest-path calculations. The results presented here should therefore be interpreted as reflecting the limitations of the usage of the straight-line geographical distances instead of real road-network distances.
 
 ## 6.1 Simple Median Model
 
