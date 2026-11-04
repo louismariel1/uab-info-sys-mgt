@@ -710,7 +710,7 @@ The four approaches produce different preferred locations because they evaluate 
 | --- | --- | --- |
 | Centre of Gravity | Camí de Can Coniller, 08220 Terrassa, Barcelona | Weighted geographical centrality |
 | Factor-Rating | IA-S2 – Can Roqueta | Weighted qualitative suitability |
-| Cost Model | **IA-R2 – Cova Solera** | Lowest estimated annual equivalent cost |
+| **Cost Model** | **IA-R2 – Cova Solera** | **Lowest estimated annual equivalent cost** |
 | Graph-Based geographical proxies | IA-T – Els Bellots | Geographical proximity and coverage |
 
 ## 6.2 Discussion of the Results
@@ -727,22 +727,7 @@ The Cost Model favours Cova Solera in Rubí because its estimated rental and tra
 
 The project owner's stated priority is to compare transport-supply, transport-distribution and operating costs, including fixed, variable and establishment costs.
 
-Consequently, the Cost Model is the most appropriate method for determining the final location under the project's adopted decision priorities.
-
-## 6.3 Final Decision Criteria
-
-The results should be interpreted according to their respective purposes:
-
-| Candidate | Main Supporting Evidence |
-| --- | --- |
-| Els Bellots | Lowest weighted mean geographical distance and highest coverage |
-| Can Roqueta | Highest Factor-Rating score of 4.20/5 |
-| Cova Solera | Lowest estimated annual equivalent cost |
-| Can Jardí | Second-lowest estimated annual equivalent cost |
-
-The fact that Cova Solera does not rank first in the other methods does not invalidate its selection.
-
-The methods have different objectives, and the project has explicitly prioritized economic performance.
+**Consequently, the Cost Model is the most appropriate method for determining the final location under the project's adopted decision priorities.**
 
 ---
 
