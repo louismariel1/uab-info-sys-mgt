@@ -77,8 +77,6 @@ The project owner's stated priority is:
 Accordingly, the Cost Model determines the final recommendation.
 
 # 1.3 Study Methodology and Scope
-Absolutely. Four concise sentences are sufficient. The Introduction only needs to establish the geographical scope and explain the preliminary selection of alternatives; the details belong in Section 2.
-
 The study is geographically limited to Vallès Occidental, Catalonia, which defines the regional scope for both the healthcare demand network and the potential location of the centralized laundry facility. Seven healthcare facilities within this region were identified as demand points, and six existing industrial areas in the region were shortlisted as potential locations. The shortlist was based on their geographical position, their identification as established industrial areas or corridors, and the availability of relevant public geographical and industrial information. It provides a manageable set of plausible alternatives for comparative analysis, without implying formal technical or regulatory validation of individual properties.
 
 ---
