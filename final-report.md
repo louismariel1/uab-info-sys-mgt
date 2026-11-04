@@ -681,20 +681,6 @@ The full comparison is:
 
 This indicates that Cova Solera is the lowest-cost candidate under the adopted assumptions, but its economic advantage is relatively modest.
 
-# Graph-Based Models
-
-Two complementary geographical models are used to evaluate the proximity of the six candidate industrial areas to the seven healthcare facilities:
-
-1. Simple Median Model.
-2. Coverage Model.
-
-Both models use the seven hospital service points, weighted by their respective bed capacities, and the six candidate industrial areas.
-
-The purpose of this section is to evaluate geographical proximity and potential service coverage independently of the economic comparison presented in Section 5.
-**Methodology**: The current numerical analysis uses straight-line geographical distances between representative hospital and industrial-area coordinates. Although the models are graph-related, a fully implemented road-network analysis would require a road-network graph and shortest-path calculations. The results presented here should therefore be interpreted as reflecting the limitations of the usage of the straight-line geographical distances instead of real road-network distances.
-
-Writing
-
 # 6\. Geographical Distance and Coverage Models
 
 Two complementary geographical models are used to evaluate the proximity of the six candidate industrial areas to the seven healthcare facilities:
