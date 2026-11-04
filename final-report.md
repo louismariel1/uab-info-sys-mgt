@@ -531,6 +531,34 @@ The resulting transport costs are comparative estimates based on converted geogr
 
 ## 5.3 Annual Transport Cost Estimates
 
+The annual transport costs are divided into two components:
+
+- Distribution cost: Covers the transportation of clean and soiled linen between the centralized laundry and the seven healthcare facilities.
+- Supply cost: Covers the transportation of supplies from the external supplier hub to the centralized laundry.
+
+The combined annual transport cost is calculated as:
+
+$$ C\_} = C\_} + C\_} $$
+
+The combined transport costs for all six candidates are shown below.
+
+| Candidate | Distribution Cost/year | Supply Cost/year | Combined Cost/year |
+| --- | --- | --- | --- |
+| IA-T – Els Bellots | €43,544 | €9,213 | €52,757 |
+| IA-S1 – Sant Pau de Riu-sec | €43,854 | €7,161 | €51,015 |
+| IA-S2 – Can Roqueta | €47,740 | €8,028 | €55,768 |
+| IA-R1 – Can Jardí | €42,838 | €6,698 | €49,536 |
+| IA-R2 – Cova Solera | €41,392 | €6,837 | €48,229 |
+| IA-C – Cerdanyola | €49,670 | €5,940 | €55,610 |
+
+Example calculation – Cova Solera (IA-R2):
+
+$$ C\_} =41,392+6,837 $$
+
+$$ \\boxed
+
+## 5.3 Annual Transport Cost Estimates
+
 | Candidate | Distribution Cost/year | Supply Cost/year |
 | --- | --- | --- |
 | IA-T – Els Bellots | €43,544 | €9,213 |
