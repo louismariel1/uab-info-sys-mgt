@@ -7,7 +7,6 @@
 **Study area:** Vallès Occidental, Barcelona, Catalonia, Spain\
 **Selected location:** **Industrial warehouse in Polígon Industrial de Cova Solera, Rubí (Barcelona, Spain)** 
 
-
 ---
 
 # Executive Summary
