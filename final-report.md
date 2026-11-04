@@ -681,7 +681,7 @@ The full comparison is:
 
 This indicates that Cova Solera is the lowest-cost candidate under the adopted assumptions, but its economic advantage is relatively modest.
 
-# 6. Distance and Coverage Models
+# Graph-Based Models
 
 Two complementary geographical models are used to evaluate the proximity of the six candidate industrial areas to the seven healthcare facilities:
 
