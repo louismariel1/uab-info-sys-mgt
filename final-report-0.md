@@ -857,7 +857,7 @@ However, the project owner's primary priority is minimizing total annual costs, 
 **Final decision: Cova Solera, Rubí, is the preferred location because it achieves the lowest estimated annual equivalent cost of €1,821,014 under the adopted project assumptions.**
 ---
 
-# References and Evidence Record
+# References
 
 1. **Course lecture material.** *Location Strategies*. Methods applied include Centre of Gravity, Factor-Rating, Cost Models and geographical coverage assessment.
 2. **Institut Cartogràfic i Geològic de Catalunya (ICGC).** Geocoding and reverse-geocoding services.\
