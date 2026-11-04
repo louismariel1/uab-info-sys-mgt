@@ -824,10 +824,6 @@ $$\
 \boxed{C\_{\text{annual}}=€72,000/year}\
 $$
 
-The listing supports the rental assumption used in the Cost Model and provides evidence that a property of the approximate required scale has been marketed in the selected industrial area.
-
-It does not establish that the property remains available or that it has been verified as suitable for the proposed laundry operation.
-
 ## 7.4 Selection Rationale
 
 Cova Solera is selected because:
@@ -838,24 +834,6 @@ Cova Solera is selected because:
 4. Its combined supply and distribution transport cost is competitive.
 5. An identifiable warehouse listing supports the rental assumption.
 6. Its selection directly reflects the project owner's cost-based priorities.
-
-The estimated annual advantage over Can Jardí is €15,707. This is a relatively modest difference and should be interpreted in light of the indicative nature of the rental and transport assumptions.
-
-## 7.5 Property Validation Status
-
-The location-selection decision is complete for the purposes of this study.
-
-| Item                       | Status                      |
-| -------------------------- | --------------------------- |
-| Selected industrial area   | Identified                  |
-| Public property listing    | Identified                  |
-| Approximate warehouse area | 1,500 m² advertised         |
-| Indicative asking rent     | €6,000/month                |
-| Current availability       | Not independently confirmed |
-| Technical suitability      | Not independently confirmed |
-| Lease or acquisition       | Not completed               |
-
-The report recommends the Cova Solera industrial area and its identified warehouse listing as the preferred property reference. It does not claim that a lease-ready, fully validated property has been secured.
 
 ---
 
