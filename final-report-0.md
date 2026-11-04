@@ -733,9 +733,10 @@ Coverage\_{\text{IA-T}}=\
 \frac{2211}{2515}\times100\
 $$
 
-$$\
-\boxed{Coverage\_{\text{IA-T}}=87.9%}\
 $$
+\boxed{\text{Coverage}_{\text{IA-T}}=87.9\%}
+$$
+
 
 Els Bellots therefore provides the highest baseline geographical coverage.
 
