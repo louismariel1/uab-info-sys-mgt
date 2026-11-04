@@ -1,0 +1,1334 @@
+Understood. I will use your latest Cova Solera report as the master document and integrate the independent geographical recalculation into it.
+
+I will completely omit the consensus-coordinate calculation and its verification. The report will retain Cova Solera, Rubí, as the final recommended location, with the Cost Model remaining the controlling decision method.
+
+The updated version will incorporate:
+
+1. Independently verified Centre of Gravity calculations.
+2. The complete 42-distance hospital-to-candidate comparison matrix.
+3. Corrected weighted mean distances, including Can Roqueta's correction from 6.74 km to 6.75 km.
+4. Verified coverage percentages and the underlying covered-bed counts at all three thresholds.
+5. Explicit Factor-Rating calculations, cost-model calculations and methodological limitations.
+6. A clearer distinction between the selected industrial area and a property whose availability and technical suitability still require confirmation.
+
+I will also preserve the original hospital data, candidate locations, cost assumptions, rankings and final recommendation.
+
+Writing
+
+# Centralized Hospital Laundry Location Study
+
+## Location Analysis for a Centralized Hospital Laundry in Vallès Occidental, Catalonia
+
+**Report status:** Updated interim analytical report — location selection completed; final property validation pending\
+**Study area:** Vallès Occidental, Barcelona, Catalonia, Spain\
+**Selected industrial area:** Polígon Industrial de Cova Solera, Rubí
+
+---
+
+# Executive Summary
+
+This study evaluates six candidate industrial areas for the establishment of a centralized hospital laundry facility serving seven healthcare facilities in Vallès Occidental, Catalonia.
+
+The objective is to identify an industrial location that balances geographical proximity, accessibility, property suitability and, most importantly, the estimated total annual cost of operating the proposed facility.
+
+The hospital network comprises 2,515 beds. Applying the assumed laundry-generation factor of 3.0 kg per bed per day results in an estimated processing demand of:
+
+**7,545 kg/day, equivalent to 2,753,925 kg/year.**
+
+Four complementary location-analysis approaches have been applied:
+
+1. Centre of Gravity Method.
+2. Factor-Rating Method.
+3. Cost Model.
+4. Graph-Based Location Analysis, using preliminary geographical distance and coverage proxies.
+
+The main findings are summarized below.
+
+| Method | Preferred result | Main finding |
+| --- | --- | --- |
+| Centre of Gravity | Theoretical point between Sabadell and Terrassa | Weighted geographical balance |
+| Factor-Rating | IA-S2 – Can Roqueta | Highest qualitative suitability score: 4.20/5 |
+| Cost Model | IA-R2 – Cova Solera | Lowest estimated annual equivalent cost |
+| Graph-Based geographical proxies | IA-T – Els Bellots | Lowest weighted mean distance and highest baseline coverage |
+
+The geographical calculations have been independently recalculated using consistent coordinate and distance conventions.
+
+The principal verification findings are:
+
+- The Centre of Gravity coordinates have been independently reproduced.
+- Five of the six weighted mean distances agree with the original reported values at two decimal places.
+- Can Roqueta requires a rounding correction from 6.74 km to 6.75 km.
+- All 18 coverage percentages have been reproduced.
+- The underlying covered-bed counts have also been verified.
+- The Factor-Rating calculations have been checked against the stated criteria, weights and scores.
+
+The Cost Model identifies IA-R2, Cova Solera in Rubí, as the lowest-cost candidate, with an estimated annual equivalent cost of €1,821,014.
+
+The second-ranked candidate, Can Jardí, has an estimated annual equivalent cost of €1,836,721. The difference is €15,707 per year.
+
+**The final recommendation is therefore to select an industrial warehouse in Polígon Industrial de Cova Solera, Rubí (Barcelona, Spain), as the preferred location under the adopted economic assumptions.**
+
+This is a location-selection recommendation rather than confirmation of a completed property acquisition or lease. Final property availability, technical suitability and regulatory compliance remain subject to validation.
+
+---
+
+# 1\. Introduction
+
+## 1.1 Project Background
+
+This study evaluates potential locations for a centralized hospital laundry facility serving seven healthcare facilities in Vallès Occidental, Catalonia.
+
+The objective is to identify an industrial location that can support the collection, processing and distribution of hospital textiles while considering transportation requirements, operating costs, industrial suitability and access to the healthcare facilities.
+
+Centralizing laundry operations may offer operational efficiencies through shared infrastructure, consolidated processing and coordinated logistics. However, the location of the facility is important because it influences transport distances, delivery times, property costs and the overall cost of the proposed operation.
+
+## 1.2 Objective of the Location Study
+
+The primary objective is to compare six candidate industrial areas using four location-analysis approaches:
+
+- Centre of Gravity Method.
+- Factor-Rating Method.
+- Cost Model.
+- Graph-Based Location Analysis.
+
+Each method evaluates location from a different perspective. The results are therefore not expected to identify the same candidate.
+
+The final decision is based on the priorities of the project owner, whose principal objective is to compare transport-supply, transport-distribution and operating costs, including fixed, variable and establishment costs.
+
+Consequently, the Cost Model is treated as the controlling method for the final location recommendation.
+
+## 1.3 Scope
+
+The study focuses on the geographical and economic comparison of candidate industrial areas.
+
+It uses available geographical information, indicative property rental references and explicit planning assumptions to estimate the relative costs of operating a centralized laundry facility.
+
+The study is intended as an academic location-selection exercise. It is not a detailed engineering design, property inspection, regulatory approval or commercial feasibility assessment.
+
+---
+
+# 2\. Data Collection and Assumptions
+
+## 2.1 Healthcare Facilities
+
+The proposed laundry facility will serve seven healthcare facilities in Vallès Occidental. The number of beds is used as a proxy for estimating laundry demand.
+
+| ID | Hospital / Service Point | Municipality | Beds |
+| --- | --- | --- | --- |
+| H01 | Hospital de Sabadell – Parc Taulí | Sabadell | 861 |
+| H02 | Hospital de Terrassa | Terrassa | 460 |
+| H03 | Mútua de Terrassa + Àptima Centre Clínic | Terrassa | 604 |
+| H04 | Hospital Universitari General de Catalunya | Sant Cugat del Vallès | 304 |
+| H05 | Centre de Prevenció i Rehabilitació Asepeyo | Sant Cugat del Vallès | 138 |
+| H06 | Hospital de Sant Llàtzer | Terrassa | 77 |
+| H07 | Hospital Quirónsalud del Vallès | Sabadell | 71 |
+|  | **Total** |  | **2,515** |
+
+The three largest service points (H01, H02 and H03) account for 1,925 beds.
+
+Their percentage of total demand weight is:
+
+$$
+\frac{861+460+604}{2515}\times100
+=
+76.54\%
+$$
+
+Approximately 76.5% of the total demand weight is therefore concentrated in these three facilities.
+
+This concentration is particularly relevant when evaluating geographical proximity and transportation requirements.
+
+## 2.2 Laundry Demand Estimation
+
+For the purpose of this study, an average laundry-generation rate of 3.0 kg per bed per day is assumed.
+
+The estimated daily demand is:
+
+$$
+Q_{\text{daily}}=N\times L
+$$
+
+Where:
+
+- $N$ = Total number of beds.
+- $L$ = Laundry-generation factor.
+
+Substituting the project values:
+
+$$
+Q_{\text{daily}}=2515\times3.0
+$$
+
+$$
+\boxed{Q_{\text{daily}}=7,545\text{ kg/day}}
+$$
+
+Assuming operations throughout the year:
+
+$$
+Q_{\text{annual}}=Q_{\text{daily}}\times365
+$$
+
+$$
+Q_{\text{annual}}=7545\times365
+$$
+
+$$
+\boxed{Q_{\text{annual}}=2,753,925\text{ kg/year}}
+$$
+
+The assumed generation rate is a planning parameter rather than measured consumption data from the individual hospitals. It provides a common demand estimate for comparing the candidate locations.
+
+## 2.3 Geographical Data
+
+Hospital and candidate-area coordinates are expressed in WGS84 (EPSG:4326).
+
+Metric geographical calculations use ETRS89 / UTM Zone 31N (EPSG:25831).
+
+### 2.3.1 Hospital Coordinates
+
+| ID | Latitude | Longitude |
+| --- | --- | --- |
+| H01 | 41.55719 | 2.10989 |
+| H02 | 41.55679 | 2.05277 |
+| H03 | 41.56383 | 2.01718 |
+| H04 | 41.47491 | 2.04463 |
+| H05 | 41.49010 | 2.07843 |
+| H06 | 41.56261 | 2.01721 |
+| H07 | 41.53233 | 2.11760 |
+
+### 2.3.2 Candidate Industrial Areas
+
+| ID | Candidate Industrial Area | Municipality | Latitude | Longitude |
+| --- | --- | --- | --- | --- |
+| IA-T | Els Bellots / Santa Margarida / Can Parellada | Terrassa | 41.549829 | 2.041354 |
+| IA-S1 | Sud-Oest / Sant Pau de Riu-sec | Sabadell | 41.513398 | 2.099462 |
+| IA-S2 | Sabadell Parc Empresarial / Can Roqueta | Sabadell | 41.537660 | 2.134320 |
+| IA-R1 | Can Sant Joan / Can Jardí | Rubí | 41.473458 | 2.020948 |
+| IA-R2 | Central/southern industrial corridor / Cova Solera | Rubí | 41.480448 | 2.026145 |
+| IA-C | Cerdanyola industrial corridor / Parc de l'Alba | Cerdanyola | 41.485460 | 2.107650 |
+
+These coordinates represent candidate industrial areas for comparative analysis. They are not necessarily the precise coordinates of individual buildings.
+
+## 2.4 General Modelling Assumptions
+
+| Parameter | Adopted assumption |
+| --- | --- |
+| Number of healthcare facilities | 7 |
+| Total demand weight | 2,515 beds |
+| Laundry-generation factor | 3.0 kg/bed/day |
+| Estimated daily demand | 7,545 kg/day |
+| Estimated annual demand | 2,753,925 kg/year |
+| Candidate industrial areas | 6 |
+| Master coordinate system | WGS84 (EPSG:4326) |
+| Projected coordinate system | ETRS89 / UTM 31N (EPSG:25831) |
+| Reference warehouse area | 1,500 m² |
+| Factor-Rating scale | 1–5 |
+| Coverage baseline radius | 7.5 km |
+| Road-distance conversion factor | 1.30 |
+| Transport cost benchmark | €1.424/km |
+| Annual operating days | 365 |
+
+The common reference area of 1,500 m² is a modelling assumption applied to all candidates to ensure comparability. The Cova Solera property reference also provides an advertised industrial warehouse of approximately 1,500 m².
+
+## 2.5 Data Limitations
+
+The geographical analysis uses representative industrial-area coordinates rather than confirmed building entrances.
+
+The bed figures are used as relative demand weights and do not represent measured laundry consumption.
+
+Property rental values are indicative asking rents, not confirmed contractual rents.
+
+The transport estimates use converted geographical distances and assumed operating frequencies rather than validated road-network routes or transport-provider quotations.
+
+These limitations are maintained throughout the analysis.
+
+---
+
+# 3\. Centre of Gravity Method
+
+## 3.1 Methodology
+
+The Centre of Gravity Method identifies a theoretical location based on the geographical coordinates and demand weights of the healthcare facilities.
+
+The weighted coordinates are calculated using:
+
+$$
+X^*=\frac{\sum_{i=1}^{n}W_iX_i}{\sum_{i=1}^{n}W_i}
+$$
+
+$$
+Y^*=\frac{\sum_{i=1}^{n}W_iY_i}{\sum_{i=1}^{n}W_i}
+$$
+
+Where:
+
+- $X_i$ = Projected easting of healthcare facility $i$.
+- $Y_i$ = Projected northing of healthcare facility $i$.
+- $W_i$ = Number of beds at facility $i$.
+- $n$ = Number of healthcare facilities.
+
+The calculation uses projected metric coordinates rather than directly averaging latitude and longitude degrees.
+
+## 3.2 Coordinate Reference System
+
+The hospital coordinates were converted from WGS84 to:
+
+**ETRS89 / UTM Zone 31N (EPSG:25831).**
+
+The projected coordinate system is suitable for the study area and allows the weighted geographical calculations to be performed in metres.
+
+The calculation uses the GRS80 ellipsoid and the EPSG:25831 projection parameters.
+
+## 3.3 Calculation
+
+The total weighting factor is:
+
+$$
+\sum_{i=1}^{7}W_i=2515
+$$
+
+The independently recalculated weighted projected coordinates are:
+
+$$
+E^*=
+\frac{\sum W_iE_i}{2515}
+$$
+
+$$
+\boxed{E^*=422010.6094\text{ m}}
+$$
+
+Similarly:
+
+$$
+N^*=
+\frac{\sum W_iN_i}{2515}
+$$
+
+$$
+\boxed{N^*=4599632.8017\text{ m}}
+$$
+
+The inverse projection converts these coordinates back to geographical coordinates.
+
+The resulting coordinates are:
+
+$$
+\text{Latitude}=41.5445552556^\circ
+$$
+
+$$
+\text{Longitude}=2.0649425975^\circ
+$$
+
+Therefore:
+
+$$
+\boxed{41.544555^\circ\text{ N},\quad2.064943^\circ\text{ E}}
+$$
+
+## 3.4 Independent Verification
+
+The recalculation reproduces the original Centre of Gravity result.
+
+| Parameter | Original report | Independent recalculation |
+| --- | --- | --- |
+| Easting | 422,010.609 m | 422,010.6094 m |
+| Northing | 4,599,632.802 m | 4,599,632.8017 m |
+| Latitude | 41.544555° N | 41.5445552556° N |
+| Longitude | 2.064943° E | 2.0649425975° E |
+
+There is no discrepancy at the reported six-decimal geographical precision.
+
+## 3.5 Interpretation
+
+The Centre of Gravity Method provides a theoretical geographical reference between the main healthcare demand concentrations of Sabadell and Terrassa.
+
+The result is influenced by the concentration of demand around H01, H02 and H03.
+
+However, the mathematical formulation minimizes the weighted sum of squared Euclidean distances. It should therefore be interpreted as a geographical reference rather than a direct estimate of minimum real-world transport cost.
+
+The method does not account directly for:
+
+- Road-network geometry.
+- Traffic conditions.
+- Actual travel times.
+- Industrial zoning.
+- Building availability.
+- Property prices.
+- Facility infrastructure.
+
+The Centre of Gravity is therefore useful for preliminary geographical screening but does not determine the final industrial property.
+
+---
+
+# 4\. Factor-Rating Method
+
+## 4.1 Methodology
+
+The Factor-Rating Method evaluates candidate locations using qualitative and operational criteria.
+
+Each criterion receives a weight according to its relative importance, and each candidate receives a score from 1 to 5.
+
+The weighted score is:
+
+$$
+S_j=\sum_{k=1}^{m}w_kr_{jk}
+$$
+
+Where:
+
+- $S_j$ = Weighted score of candidate $j$.
+- $w_k$ = Weight assigned to criterion $k$.
+- $r_{jk}$ = Score of candidate $j$ for criterion $k$.
+- $m$ = Number of evaluation criteria.
+
+The maximum possible score is 5.
+
+## 4.2 Evaluation Criteria and Weights
+
+| Criterion | Weight |
+| --- | --- |
+| Proximity to healthcare facilities | 25% |
+| Road accessibility | 20% |
+| Evidence of suitable premises | 20% |
+| Industrial compatibility | 15% |
+| Utilities and infrastructure | 10% |
+| Environmental and residential compatibility | 10% |
+| **Total** | **100%** |
+
+## 4.3 Candidate Scores
+
+Scores are assigned on a scale from 1 (least favourable) to 5 (most favourable).
+
+| Candidate | Proximity | Roads | Premises | Industrial | Utilities | Environment |
+| --- | --- | --- | --- | --- | --- | --- |
+| IA-T | 5 | 4 | 3 | 5 | 3 | 3 |
+| IA-S1 | 4 | 4 | 2 | 5 | 3 | 3 |
+| IA-S2 | 3 | 5 | 5 | 5 | 4 | 3 |
+| IA-R1 | 2 | 4 | 4 | 5 | 4 | 3 |
+| IA-R2 | 2 | 4 | 4 | 5 | 4 | 3 |
+| IA-C | 2 | 5 | 2 | 3 | 4 | 3 |
+
+The scores represent a comparative assessment based on the available geographical and industrial evidence. They are indicative rather than the result of a formal site inspection or verified technical audit.
+
+## 4.4 Weighted Score Calculations
+
+The calculations use the stated criterion weights.
+
+For IA-S2 – Can Roqueta:
+
+$$
+S_{\text{IA-S2}}=
+0.25(3)+0.20(5)+0.20(5)
+$$
+
+$$
++0.15(5)+0.10(4)+0.10(3)
+$$
+
+$$
+=0.75+1.00+1.00+0.75+0.40+0.30
+$$
+
+$$
+\boxed{S_{\text{IA-S2}}=4.20/5}
+$$
+
+For IA-T – Els Bellots:
+
+$$
+S_{\text{IA-T}}=
+0.25(5)+0.20(4)+0.20(3)
+$$
+
+$$
++0.15(5)+0.10(3)+0.10(3)
+$$
+
+$$
+=1.25+0.80+0.60+0.75+0.30+0.30
+$$
+
+$$
+\boxed{S_{\text{IA-T}}=4.00/5}
+$$
+
+The remaining candidates are calculated using the same method.
+
+| Candidate | Weighted Score | Rank |
+| --- | --- | --- |
+| **IA-S2 – Can Roqueta** | **4.20** | **1** |
+| IA-T – Els Bellots | 4.00 | 2 |
+| IA-S1 – Sant Pau de Riu-sec | 3.55 | 3 |
+| IA-R1 – Can Jardí | 3.55 | 3 |
+| IA-R2 – Cova Solera | 3.55 | 3 |
+| IA-C – Cerdanyola | 3.05 | 6 |
+
+## 4.5 Interpretation
+
+The Factor-Rating Method identifies IA-S2, Sabadell Parc Empresarial / Can Roqueta, as the highest-scoring candidate.
+
+Its result is primarily supported by its favourable assessment of road accessibility, evidence of suitable industrial premises and industrial compatibility.
+
+IA-T, in Terrassa, obtains the second-highest score, reflecting its geographical proximity to the healthcare facilities.
+
+The calculation confirms the reported score of 4.20/5 for Can Roqueta.
+
+The Factor-Rating Method is a qualitative comparison. Its outcome depends on the selected criteria, weights and assigned scores. It is therefore useful as a complementary assessment but does not replace the quantitative cost comparison required for the final decision.
+
+---
+
+# 5\. Cost Model
+
+## 5.1 Methodology
+
+The Cost Model compares the estimated annual costs associated with operating the centralized laundry at each candidate location.
+
+The model considers:
+
+- Property rental costs.
+- Transport-supply costs.
+- Transport-distribution costs.
+- Fixed operating costs.
+- Variable processing costs.
+- Establishment costs.
+
+The objective is to identify the candidate with the lowest estimated annual equivalent cost under the adopted assumptions.
+
+## 5.2 Transport Cost Estimation
+
+The transport calculation uses geographical distances converted into estimated road distances through a conversion factor.
+
+$$
+d_{\text{road}}=d_{\text{map}}\times f
+$$
+
+The estimated transport cost is calculated as:
+
+$$
+C_{\text{transport}}=
+d_{\text{map}}\times f\times q\times c\times n
+$$
+
+Where:
+
+- $d_{\text{map}}$ = Geographical distance.
+- $f$ = Road-distance conversion factor.
+- $q$ = Applicable transport quantity or number of journeys.
+- $c$ = Transport cost per kilometre.
+- $n$ = Number of operating periods.
+
+The adopted assumptions are:
+
+| Parameter | Assumption |
+| --- | --- |
+| Road-distance conversion factor | 1.30 |
+| Transport cost benchmark | €1.424/km |
+| Distribution tours | 2 complete multi-stop tours/day |
+| Operating days | 365 days/year |
+| Supply journeys | 2 round trips/week |
+| Supply operating weeks | 52 weeks/year |
+
+The transport benchmark is based on an indicative Spanish articulated-vehicle operating-cost reference. It is used as a comparative cost proxy rather than as a quotation from a laundry transport provider.
+
+### Distribution transport
+
+The model estimates two complete multi-stop tours per day:
+
+1. Clean-linen delivery to the seven healthcare facilities.
+2. Soiled-linen collection from the seven healthcare facilities.
+
+The tours visit all seven facilities, using a nearest-neighbour sequence based on representative geographical coordinates.
+
+### Supply transport
+
+The model assumes two weekly round trips to a representative logistics supplier hub in the Barcelona area.
+
+The resulting transport costs are comparative estimates based on converted geographical distances and assumed transport frequencies. They are not based on verified vehicle routes or transport-provider quotations.
+
+## 5.3 Annual Transport Cost Estimates
+
+| Candidate | Distribution Cost/year | Supply Cost/year |
+| --- | --- | --- |
+| IA-T – Els Bellots | €43,544 | €9,213 |
+| IA-S1 – Sant Pau de Riu-sec | €43,854 | €7,161 |
+| IA-S2 – Can Roqueta | €47,740 | €8,028 |
+| IA-R1 – Can Jardí | €42,838 | €6,698 |
+| **IA-R2 – Cova Solera** | **€41,392** | **€6,837** |
+| IA-C – Cerdanyola | €49,670 | €5,940 |
+
+The combined transport costs are:
+
+$$
+C_{\text{transport}}=
+C_{\text{distribution}}+
+C_{\text{supply}}
+$$
+
+For Cova Solera:
+
+$$
+C_{\text{transport,IA-R2}}=
+41,392+6,837
+$$
+
+$$
+\boxed{C_{\text{transport,IA-R2}}=€48,229/year}
+$$
+
+The same calculation is applied to all candidates.
+
+## 5.4 Property Rental Costs
+
+A common reference warehouse area of 1,500 m² is used to compare rental costs.
+
+The annual rental cost is calculated as:
+
+$$
+C_{\text{rent}}=R\times A\times12
+$$
+
+Where:
+
+- $R$ = Monthly rental rate (€ / m²).
+- $A$ = Reference warehouse area (m²).
+- $12$ = Months per year.
+
+For Cova Solera:
+
+$$
+C_{\text{rent}}=4.00\times1,500\times12
+$$
+
+$$
+\boxed{C_{\text{rent}}=€72,000/year}
+$$
+
+The comparative rental estimates are:
+
+| Candidate | Indicative Rent €/m²/month | Annual Rent |
+| --- | --- | --- |
+| IA-R2 – Cova Solera | €4.00 | €72,000 |
+| IA-R1 – Can Jardí | €4.80 | €86,400 |
+| IA-S2 – Can Roqueta | €5.00 | €90,000 |
+| IA-S1 – Sant Pau de Riu-sec | €5.50 | €99,000 |
+| IA-C – Cerdanyola | €5.45 | €98,100 |
+| IA-T – Els Bellots | €5.95 | €107,100 |
+
+The rental values are indicative estimates based on available industrial property references and market information.
+
+The common 1,500 m² area provides a normalized comparison. It does not establish that all candidates have a suitable property of that size.
+
+## 5.5 Fixed, Variable and Establishment Costs
+
+The operating-cost assumptions are:
+
+| Cost Component | Calculation | Annual Cost |
+| --- | --- | --- |
+| Fixed operating costs | Planning estimate | €1,000,000 |
+| Variable processing costs | €0.20 × 2,753,925 kg | €550,785 |
+| Establishment costs | €1,500,000 over 10 years | €150,000 |
+| **Total common annual cost** |  | **€1,700,785** |
+
+### Fixed operating costs
+
+$$
+C_{\text{fixed}}=€1,000,000/year
+$$
+
+### Variable processing costs
+
+The assumed variable processing cost is €0.20 per kilogram.
+
+$$
+C_{\text{variable}}=
+2,753,925\times0.20
+$$
+
+$$
+\boxed{C_{\text{variable}}=€550,785/year}
+$$
+
+### Annualised establishment costs
+
+The initial establishment investment is assumed to be €1,500,000, annualised over ten years.
+
+$$
+C_{\text{establishment,annual}}=
+\frac{1,500,000}{10}
+$$
+
+$$
+\boxed{C_{\text{establishment,annual}}=€150,000}
+$$
+
+### Total common annual costs
+
+$$
+C_{\text{common}}=
+1,000,000+550,785+150,000
+$$
+
+$$
+\boxed{C_{\text{common}}=€1,700,785/year}
+$$
+
+These operating and establishment values are planning assumptions for the academic comparison, not supplier quotations or a detailed financial feasibility estimate.
+
+Since fixed operating, variable processing and annualised establishment costs are assumed to be identical across all candidate locations, they do not affect the relative ranking.
+
+The differences in estimated total cost are therefore driven by property rental and transportation costs.
+
+## 5.6 Total Annual Equivalent Cost
+
+The total annual equivalent cost is calculated as:
+
+$$
+\begin{aligned}
+C_{\text{total},j}={}&C_{\text{rent},j}\\
+&+C_{\text{supply},j}\\
+&+C_{\text{distribution},j}\\
+&+C_{\text{fixed}}\\
+&+C_{\text{variable}}\\
+&+\frac{C_{\text{establishment}}}{10}
+\end{aligned}
+$$
+
+For Cova Solera:
+
+$$
+C_{\text{total,IA-R2}}=
+72,000+6,837+41,392+1,000,000
+$$
+
+$$
++550,785+150,000
+$$
+
+$$
+\boxed{C_{\text{total,IA-R2}}=€1,821,014/year}
+$$
+
+The full comparison is:
+
+| Rank | Candidate | Rent | Supply + Distribution | Common Operating + Establishment | Annual Total |
+| --- | --- | --- | --- | --- | --- |
+| **1** | **IA-R2 – Cova Solera** | **€72,000** | **€48,229** | **€1,700,785** | **€1,821,014** |
+| 2 | IA-R1 – Can Jardí | €86,400 | €49,536 | €1,700,785 | €1,836,721 |
+| 3 | IA-S2 – Can Roqueta | €90,000 | €55,768 | €1,700,785 | €1,846,553 |
+| 4 | IA-S1 – Sant Pau de Riu-sec | €99,000 | €51,015 | €1,700,785 | €1,850,800 |
+| 5 | IA-C – Cerdanyola | €98,100 | €55,610 | €1,700,785 | €1,854,495 |
+| 6 | IA-T – Els Bellots | €107,100 | €52,757 | €1,700,785 | €1,860,642 |
+
+## 5.7 Economic Advantage of Cova Solera
+
+The difference between the first- and second-ranked candidates is:
+
+$$
+\Delta C=
+1,836,721-1,821,014
+$$
+
+$$
+\boxed{\Delta C=€15,707/year}
+$$
+
+The relative saving compared with Can Jardí is:
+
+$$
+\frac{15,707}{1,836,721}\times100
+$$
+
+$$
+\boxed{0.86\%}
+$$
+
+This indicates that Cova Solera is the lowest-cost candidate under the adopted assumptions, but its economic advantage is relatively modest.
+
+The difference should therefore be interpreted carefully. Changes in rental conditions, transport routes or operating frequencies could influence the final ranking.
+
+## 5.8 Interpretation and Limitations
+
+The Cost Model identifies IA-R2, Cova Solera in Rubí, as the candidate with the lowest estimated annual equivalent cost.
+
+Its principal advantage is the comparatively low estimated rental cost, combined with relatively low distribution transport costs.
+
+However, the result depends on the adopted assumptions.
+
+In particular:
+
+- Transport distances have not been validated against actual road-network routes.
+- The road-distance conversion factor is a generalized assumption.
+- Transport costs are not based on provider quotations.
+- Rental prices are indicative rather than confirmed contractual values.
+- Fixed and variable operating costs are common planning assumptions.
+- Establishment costs are annualised without a detailed financing or depreciation model.
+
+The Cost Model should therefore be regarded as a comparative academic economic assessment, not a fully validated investment appraisal.
+
+---
+
+# 6\. Preliminary Graph-Based Location Analysis Using Geographical Distance Proxies
+
+## 6.1 Methodological Context
+
+Graph-Based Location Models represent a transport network using vertices and edges.
+
+Vertices represent relevant locations, while edges represent connections between them. Network-based models can then use shortest-path distances to evaluate accessibility and transport performance.
+
+The available analysis uses geographical distances between representative coordinates rather than a fully constructed road-network graph.
+
+The results should therefore be interpreted as preliminary geographical distance proxies, not as a complete graph shortest-path implementation.
+
+For consistency, the independent recalculation uses:
+
+- WGS84 geographical coordinates.
+- WGS84 geodesic distances.
+- Hospital bed numbers as demand weights.
+- A total demand weight of 2,515 beds.
+
+## 6.2 Weighted Distance Comparison
+
+### 6.2.1 Methodology
+
+The weighted mean distance is calculated using:
+
+$$
+\bar d_j=
+\frac{\sum_{i=1}^{7}W_id_{ij}}
+{\sum_{i=1}^{7}W_i}
+$$
+
+Where:
+
+- $W_i$ = Number of beds at healthcare facility $i$.
+- $d_{ij}$ = WGS84 geodesic distance between facility $i$ and candidate $j$.
+- $\sum W_i=2,515$.
+
+The weighted mean distance therefore represents the average geographical distance to the healthcare network, with larger hospitals receiving greater importance.
+
+### 6.2.2 Hospital-to-Candidate Distance Matrix
+
+The seven hospital coordinates and six candidate coordinates produce 42 individual geographical distances.
+
+The distances below were independently recalculated using the WGS84 ellipsoid.
+
+All values are in kilometres and rounded to three decimal places.
+
+| Hospital | Els Bellots | Sant Pau | Can Roqueta | Can Jardí | Cova Solera | Cerdanyola |
+| --- | --- | --- | --- | --- | --- | --- |
+| H01 | 5.776 | 4.941 | 2.977 | 11.900 | 11.023 | 7.969 |
+| H02 | 1.227 | 6.197 | 7.128 | 9.629 | 8.765 | 9.151 |
+| H03 | 2.547 | 8.861 | 10.196 | 10.042 | 9.291 | 11.523 |
+| H04 | 8.325 | 6.264 | 10.229 | 1.985 | 1.662 | 5.392 |
+| H05 | 7.320 | 3.127 | 7.048 | 5.144 | 4.496 | 2.494 |
+| H06 | 2.464 | 8.774 | 10.156 | 9.906 | 9.156 | 11.419 |
+| H07 | 6.652 | 2.591 | 1.516 | 10.386 | 9.566 | 5.271 |
+
+The displayed distances are rounded for presentation. The weighted mean calculations use the underlying unrounded distances.
+
+### 6.2.3 Worked Weighted Mean Example: Els Bellots
+
+Using the hospital bed weights:
+
+$$
+\begin{aligned}
+\bar d_{\text{Els Bellots}}=
+\frac{1}{2515}(&861d_{H01}+460d_{H02}\\
+&+604d_{H03}+304d_{H04}\\
+&+138d_{H05}+77d_{H06}\\
+&+71d_{H07})
+\end{aligned}
+$$
+
+Using the unrounded geodesic distances gives:
+
+$$
+\boxed{\bar d_{\text{Els Bellots}}=4.48\text{ km}}
+$$
+
+The same procedure is applied to the other five candidate locations.
+
+### 6.2.4 Independently Recalculated Results
+
+| Candidate | Original Report | Recalculated | Difference |
+| --- | --- | --- | --- |
+| IA-T – Els Bellots | 4.48 km | 4.48 km | 0.00 km |
+| IA-S1 – Sant Pau de Riu-sec | 6.22 km | 6.22 km | 0.00 km |
+| IA-S2 – Can Roqueta | 6.74 km | **6.75 km** | +0.01 km |
+| IA-R1 – Can Jardí | 9.37 km | 9.37 km | 0.00 km |
+| IA-R2 – Cova Solera | 8.61 km | 8.61 km | 0.00 km |
+| IA-C – Cerdanyola | 8.46 km | 8.46 km | 0.00 km |
+
+The exact recalculated weighted mean distance for Can Roqueta is:
+
+$$
+\bar d_{\text{Can Roqueta}}=6.7484\text{ km}
+$$
+
+Conventional rounding to two decimal places gives:
+
+$$
+\boxed{6.75\text{ km}}
+$$
+
+The original figure of 6.74 km may reflect truncation or a slightly different distance convention.
+
+### 6.2.5 Result and Interpretation
+
+The best candidate under the preliminary weighted-distance comparison is:
+
+$$
+\boxed{\text{IA-T – Els Bellots}}
+$$
+
+with a weighted mean geographical distance of 4.48 km.
+
+Els Bellots benefits from its position between the principal hospital demand concentrations in Sabadell and Terrassa.
+
+The recalculation confirms the original geographical ranking. The only numerical correction is Can Roqueta, which changes from 6.74 km to 6.75 km.
+
+These distances represent straight-line geographical measurements, not actual road-network travel distances.
+
+## 6.3 Coverage Analysis
+
+### 6.3.1 Methodology
+
+The Coverage Model evaluates the proportion of total hospital demand located within a specified geographical distance of each candidate facility.
+
+For candidate $j$ and coverage radius $R$, covered demand is calculated as:
+
+$$
+C_j(R)=
+\sum_{i=1}^{n}W_iI(d_{ij}\leq R)
+$$
+
+The coverage percentage is:
+
+$$
+C_j(R)=
+\frac{
+\sum_{i=1}^{n}W_iI(d_{ij}\leq R)
+}{
+2515
+}\times100
+$$
+
+Where:
+
+- $W_i$ = Hospital bed capacity.
+- $d_{ij}$ = WGS84 geodesic distance.
+- $R$ = Coverage threshold.
+- $I(\cdot)$ = Indicator function equal to 1 when the distance is within the specified threshold and 0 otherwise.
+
+The baseline coverage radius is:
+
+$$
+\boxed{R=7.5\text{ km}}
+$$
+
+This is a project modelling assumption, not a statutory or operational service requirement.
+
+### 6.3.2 Worked Coverage Example: Els Bellots
+
+At the 7.5 km threshold, Els Bellots covers the following facilities:
+
+- H01: 861 beds.
+- H02: 460 beds.
+- H03: 604 beds.
+- H05: 138 beds.
+- H06: 77 beds.
+- H07: 71 beds.
+
+H04 is outside the selected radius.
+
+The total covered demand is:
+
+$$
+861+460+604+138+77+71
+$$
+
+$$
+\boxed{2,211\text{ beds}}
+$$
+
+The coverage percentage is:
+
+$$
+C_{\text{Els Bellots}}(7.5)=
+\frac{2211}{2515}\times100
+$$
+
+$$
+\boxed{87.9\%}
+$$
+
+The same procedure is applied to all candidates.
+
+### 6.3.3 Recalculated Coverage Results
+
+| Candidate | 5 km | 7.5 km | 10 km |
+| --- | --- | --- | --- |
+| IA-T – Els Bellots | 45.4% | 87.9% | 100.0% |
+| IA-S1 – Sant Pau de Riu-sec | 42.5% | 72.9% | 100.0% |
+| IA-S2 – Can Roqueta | 37.1% | 60.8% | 60.8% |
+| IA-R1 – Can Jardí | 12.1% | 17.6% | 38.9% |
+| IA-R2 – Cova Solera | 17.6% | 17.6% | 65.8% |
+| IA-C – Cerdanyola | 5.5% | 20.4% | 72.9% |
+
+### 6.3.4 Additional Verification: Covered Bed Counts
+
+The coverage percentages were also checked against the underlying number of covered beds.
+
+| Candidate | Beds within 5 km | Beds within 7.5 km | Beds within 10 km |
+| --- | --- | --- | --- |
+| IA-T – Els Bellots | 1,141 | 2,211 | 2,515 |
+| IA-S1 – Sant Pau de Riu-sec | 1,070 | 1,834 | 2,515 |
+| IA-S2 – Can Roqueta | 932 | 1,530 | 1,530 |
+| IA-R1 – Can Jardí | 304 | 442 | 979 |
+| IA-R2 – Cova Solera | 442 | 442 | 1,654 |
+| IA-C – Cerdanyola | 138 | 513 | 1,834 |
+
+For example, the 7.5 km coverage percentage for Sant Pau is:
+
+$$
+\frac{1834}{2515}\times100
+=
+72.9225\%
+$$
+
+Rounded to one decimal place:
+
+$$
+\boxed{72.9\%}
+$$
+
+For Cova Solera:
+
+$$
+\frac{442}{2515}\times100
+=
+17.5746\%
+$$
+
+Rounded to one decimal place:
+
+$$
+\boxed{17.6\%}
+$$
+
+### 6.3.5 Sensitivity Analysis
+
+The coverage results were tested at three geographical distance thresholds:
+
+- 5 km.
+- 7.5 km.
+- 10 km.
+
+The independently recalculated percentages agree with all 18 values in the original geographical analysis after rounding to one decimal place.
+
+No coverage corrections are required.
+
+### 6.3.6 Interpretation
+
+Els Bellots obtains the highest coverage at the baseline threshold of 7.5 km, reaching 87.9% of weighted hospital demand.
+
+It also reaches 100% coverage at 10 km.
+
+The result indicates that Els Bellots offers the strongest geographical proximity and coverage performance among the six candidates under the current straight-line distance assumptions.
+
+However, these results do not represent actual road-network travel distances or verified delivery times.
+
+A complete graph-based analysis would require a road-network representation and shortest-path calculations.
+
+## 6.4 Independent Verification Summary
+
+The independent geographical recalculation produces the following findings:
+
+| Analysis | Verification result | Required action |
+| --- | --- | --- |
+| Centre of Gravity | Confirmed | Retain |
+| Els Bellots weighted distance | Confirmed | Retain |
+| Sant Pau weighted distance | Confirmed | Retain |
+| Can Roqueta weighted distance | 6.7484 km | Correct to 6.75 km |
+| Can Jardí weighted distance | Confirmed | Retain |
+| Cova Solera weighted distance | Confirmed | Retain |
+| Cerdanyola weighted distance | Confirmed | Retain |
+| Coverage at 5 km | All 6 values confirmed | Retain |
+| Coverage at 7.5 km | All 6 values confirmed | Retain |
+| Coverage at 10 km | All 6 values confirmed | Retain |
+| Covered-bed counts | All 18 values reproduced | Retain |
+
+The independent recalculation confirms that the geographical ranking and coverage conclusions remain unchanged.
+
+## 6.5 Overall Graph-Based Interpretation
+
+Both preliminary geographical indicators favour IA-T, Els Bellots in Terrassa.
+
+It provides:
+
+- The lowest weighted mean geographical distance: 4.48 km.
+- The highest baseline coverage: 87.9%.
+- Full geographical coverage of the hospital network within 10 km.
+
+However, these results do not establish the lowest real transport cost.
+
+The Cost Model remains the controlling method for the final decision because the project owner's stated priority is the comparative assessment of total annual operating and transportation costs.
+
+---
+
+# 7\. Comparison of Results
+
+## 7.1 Summary of the Four Methods
+
+The four approaches produce different preferred locations because they evaluate different aspects of the location decision.
+
+| Method | Preferred Candidate | Main Objective |
+| --- | --- | --- |
+| Centre of Gravity | Theoretical point between Sabadell and Terrassa | Weighted geographical centrality |
+| Factor-Rating | IA-S2 – Can Roqueta | Weighted qualitative suitability |
+| Cost Model | **IA-R2 – Cova Solera** | Lowest estimated annual equivalent cost |
+| Graph-Based geographical proxies | IA-T – Els Bellots | Geographical proximity and coverage |
+
+## 7.2 Discussion of the Results
+
+The results are not contradictory. Each method addresses a different decision objective.
+
+The Centre of Gravity Method provides a theoretical geographical reference.
+
+The Factor-Rating Method favours Can Roqueta because of its combined qualitative assessment of accessibility, industrial compatibility and evidence of suitable premises.
+
+The preliminary geographical distance analysis favours Els Bellots because of its proximity to the hospital demand points.
+
+The Cost Model favours Cova Solera in Rubí because its estimated rental and transportation costs produce the lowest total annual equivalent cost.
+
+The project owner's stated priority is to compare transport-supply, transport-distribution and operating costs, including fixed, variable and establishment costs.
+
+Consequently, the Cost Model is the most appropriate method for determining the final location under the project's adopted decision priorities.
+
+## 7.3 Final Decision Criteria
+
+The results should be interpreted according to their respective purposes:
+
+| Candidate | Main Supporting Evidence |
+| --- | --- |
+| Els Bellots | Lowest weighted mean geographical distance and highest coverage |
+| Can Roqueta | Highest Factor-Rating score of 4.20/5 |
+| Cova Solera | Lowest estimated annual equivalent cost |
+| Can Jardí | Second-lowest estimated annual equivalent cost |
+
+The fact that Cova Solera does not rank first in the other methods does not invalidate its selection.
+
+The methods have different objectives, and the project has explicitly prioritized economic performance.
+
+---
+
+# 8\. Selection of the Real Premise
+
+## 8.1 Selected Location
+
+The selected location is:
+
+**Industrial warehouse in Polígon Industrial de Cova Solera, Rubí (Barcelona, Spain).**
+
+This corresponds to candidate IA-R2.
+
+An identifiable public property listing provides a reference for an industrial warehouse of approximately 1,500 m² in the Cova Solera industrial area, advertised at approximately €6,000 per month.
+
+The equivalent rental rate is:
+
+$$
+R=\frac{6000}{1500}
+$$
+
+$$
+\boxed{R=€4.00/\text{m}^2/\text{month}}
+$$
+
+The annual rental cost is:
+
+$$
+C_{\text{annual}}=6000\times12
+$$
+
+$$
+\boxed{C_{\text{annual}}=€72,000}
+$$
+
+This provides a real property-market reference consistent with the rental assumption used in the Cost Model.
+
+The listing demonstrates that a property of the required approximate scale has been marketed in the selected industrial area.
+
+It does not confirm that the property remains available, that its advertised conditions are unchanged or that its technical suitability has been verified.
+
+## 8.2 Suitability for the Proposed Function
+
+Cova Solera is an established industrial area in Rubí.
+
+Its industrial context and access to the regional road network make it a plausible candidate for a centralized logistics and processing operation.
+
+The indicative property size is consistent with the common 1,500 m² reference used in the cost comparison.
+
+The selection is based on the available geographical, industrial and property-market evidence and the comparative Cost Model.
+
+Detailed engineering, building-condition and regulatory verification are outside the scope of this academic location study.
+
+## 8.3 Property Validation Requirements
+
+The following items should be verified before a lease or acquisition decision:
+
+| Validation Item | Current Status |
+| --- | --- |
+| Industrial building exists | Supported by property listing |
+| Candidate industrial area | Identified |
+| Indicative floor area | Approximately 1,500 m² |
+| Advertised rental price | Approximately €6,000/month |
+| Equivalent rental rate | €4.00/m²/month |
+| Exact property address | Requires confirmation |
+| Exact building coordinates | Requires confirmation |
+| Current availability | Requires direct revalidation |
+| Industrial permitted use | Requires verification |
+| Water supply capacity | Not verified |
+| Wastewater capacity | Not verified |
+| Electrical and thermal capacity | Not verified |
+| Laundry-specific technical suitability | Not verified |
+| Fire safety and building compliance | Not verified |
+| Final total operating cost | Not independently established |
+
+The selected property reference supports the geographical and rental assumptions of the study but should not be interpreted as final property approval.
+
+---
+
+# 9\. Final Recommendation
+
+## 9.1 Recommended Location
+
+Based on the results of the four location-analysis approaches and the project owner's stated business priorities, the recommended location is:
+
+**Industrial warehouse in Polígon Industrial de Cova Solera, Rubí (Barcelona, Spain).**
+
+The recommendation is primarily supported by the Cost Model, which produces the lowest estimated annual equivalent cost among the six candidates.
+
+The estimated annual equivalent cost is:
+
+$$
+\boxed{€1,821,014/year}
+$$
+
+This compares with €1,836,721 for the second-ranked candidate, Can Jardí.
+
+The annual difference is:
+
+$$
+\boxed{€15,707/year}
+$$
+
+The principal economic advantage is the comparatively low estimated rental cost, combined with competitive distribution and supply transportation estimates.
+
+## 9.2 Reasons for Selection
+
+Cova Solera is recommended because:
+
+1. It achieves the lowest estimated annual equivalent cost.
+2. Its indicative rental rate is the lowest among the six candidates.
+3. Its estimated distribution transport cost is the lowest among the candidates.
+4. Its combined supply and distribution transport cost remains competitive.
+5. An identifiable industrial warehouse property reference of approximately 1,500 m² supports the rental assumption.
+6. Its selection is consistent with the project's priority of minimizing estimated total operating cost.
+
+## 9.3 Alternative Locations
+
+Els Bellots should remain an important geographical alternative because it provides the lowest weighted mean distance and highest hospital coverage.
+
+Can Roqueta should remain a strong industrial alternative because it obtains the highest Factor-Rating score.
+
+Can Jardí should remain an economic alternative because it ranks second in the Cost Model.
+
+The final building should be selected only after actual premises have been compared against the technical and operational requirements of the laundry facility.
+
+## 9.4 Principal Risks and Limitations
+
+The principal limitations of the current study are:
+
+- The demand estimate is based on bed capacity and an assumed laundry-generation factor.
+- Candidate coordinates represent industrial areas rather than actual premises.
+- Factor-Rating scores are preliminary qualitative assessments.
+- Rental prices are indicative and require direct revalidation.
+- The transport model uses converted geographical distances rather than validated road-network shortest paths.
+- Transport costs are based on assumed frequencies and an indicative benchmark.
+- Fixed, variable and establishment costs are planning assumptions.
+- Actual utility capacity and laundry-specific technical suitability have not been established.
+- The final property address and coordinates require confirmation.
+
+These limitations should be addressed before making a final investment or leasing commitment.
+
+---
+
+# 10\. Conclusion
+
+This study has evaluated six candidate industrial areas for a centralized hospital laundry facility serving seven healthcare facilities in Vallès Occidental.
+
+The healthcare network comprises 2,515 beds and produces an estimated laundry demand of 7,545 kg/day, equivalent to 2,753,925 kg/year under the adopted assumption of 3.0 kg per bed per day.
+
+Four complementary location-analysis approaches were applied:
+
+1. Centre of Gravity Method.
+2. Factor-Rating Method.
+3. Cost Model.
+4. Graph-Based Location Analysis using preliminary geographical distance and coverage proxies.
+
+The Centre of Gravity calculation was independently reproduced using weighted projected coordinates in ETRS89 / UTM Zone 31N (EPSG:25831), confirming the reported theoretical location of 41.544555° N, 2.064943° E.
+
+The Factor-Rating Method identified Can Roqueta as the highest-scoring candidate, with a verified score of 4.20/5.
+
+The geographical distance analysis identified Els Bellots as the strongest candidate under the preliminary weighted-distance and coverage indicators.
+
+The independent geographical recalculation confirmed all coverage percentages and identified only one minor rounding correction: Can Roqueta's weighted mean distance changes from 6.74 km to 6.75 km.
+
+The Cost Model identified Cova Solera in Rubí as the candidate with the lowest estimated annual equivalent cost:
+
+$$
+\boxed{€1,821,014/year}
+$$
+
+This result is consistent with the project owner's priority of comparing supply transport, distribution transport and operating costs, including fixed, variable and establishment costs.
+
+The study therefore recommends an **industrial warehouse in Polígon Industrial de Cova Solera, Rubí (Barcelona, Spain)** as the preferred location.
+
+The recommendation is based on the available property-market reference and the comparative model assumptions. It is an academic location-selection decision and does not constitute a confirmed property acquisition, lease commitment or detailed operational feasibility approval.
+
+The relatively small annual cost difference between Cova Solera and Can Jardí should also be considered when interpreting the result.
+
+**Final decision: Cova Solera, Rubí, is the preferred candidate because it achieves the lowest estimated total annual equivalent cost under the adopted project assumptions.**
+
+The next stage should focus on confirming the exact property, validating its availability, checking technical and regulatory suitability, and replacing the preliminary transport estimates with actual road-network routes and transport quotations.
+
+---
+
+# References and Evidence Record
+
+The following public sources were used or identified during the project research. Property listings and market information should be rechecked because asking prices and availability can change.
+
+1. Institut Cartogràfic i Geològic de Catalunya (ICGC), geocoding and reverse-geocoding services: https://eines.icgc.cat/geocodificador/
+2. Ajuntament de Sabadell / URBACT, _Integrated Action Plan — Green Transition in Industry, City of Sabadell_, 2026.
+3. Invertica, industrial/logistics warehouse listing in Can Roqueta, Sabadell, reference BCN-IND-00247: https://www.invertica.es/index.php/inmuebles/nave-industrial-logistica-en-sabadell-bcn-ind-00247
+4. UBICAT, _Sabadell: Proyecto de 4 naves, tipo B, con todos los servicios_, reference 1178: https://www.ubicat.cat/es/sabadell/p\_i\_can\_roqueta\_ii/naves\_industriales/ref-1178
+5. Public industrial property listings for Els Bellots, Can Jardí, Cova Solera and Parc Tecnològic, as recorded in the project's comparative rental dataset.
+6. Public geographical mapping references used to establish hospital and candidate-area coordinates, as recorded in the project's geographical dataset.
+7. EPSG Geodetic Parameter Dataset, EPSG:25831 — ETRS89 / UTM Zone 31N.
+8. GeographicLib / WGS84 geodesic calculation conventions, used as the reference methodology for the independent distance recalculation.
+
+---
+
+**End of updated report.**
+
+## Important final technical note
+
+There are two matters I would keep visible before submitting the report:
+
+- Transport-cost reproducibility: The annual transport estimates have been retained, but the detailed nearest-neighbour tour sequences, individual route distances and supplier-hub coordinates are not included in the supplied material. The transport calculations should therefore not be described as independently verified.
+- Property selection: Cova Solera is the selected industrial area, supported by an advertised 1,500 m² property reference. The actual building should remain subject to availability, address, utilities and technical validation.
+
+The geographical recalculation and Factor-Rating arithmetic are incorporated, and the consensus-coordinate section has been excluded as requested.
