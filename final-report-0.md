@@ -718,15 +718,15 @@ This is a project modelling assumption, not a statutory requirement or establish
 
 ## 6.3 Baseline Coverage Results
 
-| Rank  | Candidate                   | Covered beds | Coverage  |
-| ----- | --------------------------- | ------------ | --------- |
-| **1** | **IA-T — Els Bellots**      | **2,211**    | **87.9%** |
-| 2     | IA-S1 — Sant Pau de Riu-sec | 1,834        | 72.9%     |
-| 3     | IA-S2 — Can Roqueta         | 1,530        | 60.8%     |
-| 4     | IA-C — Cerdanyola           | 513          | 20.4%     |
-| 5     | IA-R1 — Can Jardí           | 442          | 17.6%     |
-| 5     | IA-R2 — Cova Solera         | 442          | 17.6%     |
-| <br>  | **Total demand**            | **2,515**    | **100%**  |
+| Candidate | Covered beds | Coverage |
+|---|---:|---:|
+| **IA-T — Els Bellots** | **2,211** | **87.9%** |
+| IA-S1 — Sant Pau de Riu-sec | 1,834 | 72.9% |
+| IA-S2 — Can Roqueta | 1,530 | 60.8% |
+| IA-C — Cerdanyola | 513 | 20.4% |
+| IA-R1 — Can Jardí | 442 | 17.6% |
+| IA-R2 — Cova Solera | 442 | 17.6% |
+| **Total demand** | **2,515** | **100%** |
 
 For Els Bellots:
 
