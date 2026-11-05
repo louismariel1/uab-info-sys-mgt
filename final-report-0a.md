@@ -818,12 +818,6 @@ The method considers two geographical performance measures:
 1. Weighted mean distance: Measures the average distance between a candidate location and the healthcare network, giving greater importance to hospitals with more beds.
 2. Geographical coverage: Measures the proportion of total hospital-bed demand located within a specified distance of each candidate.
 
-Hospital bed capacity is used as a proxy for laundry demand.
-
-All geographical distances are calculated as straight-line distances using the WGS84 geographical coordinates of the hospitals and representative coordinates of the candidate industrial areas.
-
-These distances are geographical measurements, not road-network distances or actual vehicle travel times.
-
 ## 6.2 Straight-Line Distance Matrix
 
 The first step is to calculate the distance between each of the seven healthcare facilities and each of the six candidate industrial areas.
