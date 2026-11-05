@@ -528,9 +528,7 @@ The weighted results for all candidates are:
 | IA-R2 — Cova Solera | 3.55 | 3 |
 | IA-C — Cerdanyola | 3.05 | 6 |
 
-IA-S2 — Can Roqueta achieves the highest weighted score of 4.20/5, followed by IA-T — Els Bellots with 4.00/5.
-
-IA-S1, IA-R1 and IA-R2 are tied in third place, each scoring 3.55/5.
+**IA-S2 — Can Roqueta** achieves the highest weighted score of 4.20/5, followed by IA-T — Els Bellots with 4.00/5.
 
 ## 4.5 Interpretation
 
@@ -538,11 +536,9 @@ The Factor-Rating Method identifies IA-S2 — Can Roqueta as the highest-scoring
 
 Its result is supported by its favourable assessment of road accessibility, evidence of suitable industrial premises and industrial compatibility.
 
-IA-T — Els Bellots ranks second, supported by its geographical proximity to the healthcare facilities.
-
 The Factor-Rating Method is a qualitative assessment. Its result depends on the selected criteria, weights and assigned scores.
 
-It complements, but does not replace, the economic comparison.
+It complements, but does not replace the Cost Model which has priority in the current study. 
 
 ---
 
