@@ -230,11 +230,7 @@ The coverage percentage is:
 
 $$
 Coverage_{\text{IA-T}}=
-\frac{2211}{2515}\times100
-$$
-
-$$
-\boxed{Coverage_{\text{IA-T}}=87.9\%}
+\frac{2211}{2515}\times100 = 87.9
 $$
 
 This means that 87.9% of the total hospital-bed demand is located within 7.5 km of Els Bellots.
