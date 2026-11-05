@@ -921,7 +921,7 @@ Where:
 | H07 | 71 |
 | Total | 2,515 |
 
-### Step 2: Calculate the weighted mean distance for Els Bellots
+### Step 2: Calculate the weighted mean distance for the Industrial Area. For example for Els Bellots
 
 Using the distances from Table 6.1:
 
