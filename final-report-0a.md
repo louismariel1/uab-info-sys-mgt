@@ -430,11 +430,9 @@ $$
 
 The calculated coordinates were independently checked using the GPS-Coordinates.net reverse-geocoding service.
 
-The service returned the following nearby postal address:
+The service returned the following nearby postal address: **Camí de Can Coniller, 08220 Terrassa, Spain.**
 
-**Camí de Can Coniller, 08220 Terrassa, Spain.**
-
-The corresponding coordinates are:
+The corresponding coordinates are: 
 
 - Latitude: 41.5448
 - Longitude: 2.0649
