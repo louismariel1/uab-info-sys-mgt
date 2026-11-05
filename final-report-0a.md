@@ -1135,13 +1135,9 @@ The results are not contradictory. Each method answers a different decision ques
 
 ## 7.2 Selected Location
 
-The project owner's priority is to compare transport-supply, transport-distribution and operating costs, including fixed, variable and establishment costs.
-
-The Cost Model directly evaluates these priorities.
+The project owner's priority is to compare transport-supply, transport-distribution and operating costs, including fixed, variable and establishment costs. The Cost Model directly evaluates these priorities.
 
 **Final selected location: Industrial warehouse in Polígon Industrial de Cova Solera, Rubí (Barcelona, Spain).**
-
-This corresponds to candidate IA-R2.
 
 An identifiable public property listing provides a reference for an industrial warehouse of approximately 1,500 m² in Cova Solera, advertised at approximately €6,000 per month.
 
@@ -1173,9 +1169,7 @@ Four complementary location-analysis methods were applied:
 - Cost Model.
 - Geographic Coverage Method.
 
-The Cost Model identifies Cova Solera as the lowest-cost candidate, with an estimated annual equivalent cost of €1,821,014.
-
-**Final decision: Cova Solera, Rubí, is the preferred location because it achieves the lowest estimated annual equivalent cost of €1,821,014 under the adopted project assumptions.**
+**The Cost Model identifies Cova Solera as the lowest-cost candidate, with an estimated annual equivalent cost of €1,821,014.**
 
 ---
 
