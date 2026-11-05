@@ -1243,11 +1243,7 @@ The coverage percentage is therefore:
 
 $$
 Coverage_{IA-T}(7.5)=
-\frac{2211}{2515}\times100
-$$
-
-$$
-\boxed{Coverage_{IA-T}(7.5)=87.9\%}
+\frac{2211}{2515}\times100 = 87.9
 $$
 
 This means that, under the adopted geographical distance threshold, Els Bellots covers approximately 87.9% of the total hospital bed capacity.
