@@ -1128,15 +1128,3 @@ The recommendation is conditional on the validation of actual property availabil
 10. **UBICAT.** Sabadell, Can Roqueta II, industrial warehouse development, reference 1178.\
     https://www.ubicat.cat/es/sabadell/p\_i\_can\_roqueta\_ii/naves\_industriales/ref-1178
 11. **Geographical and property comparison dataset.** Hospital coordinates, candidate industrial-area coordinates and indicative rental references compiled for this study.
-
-## Important checks before submitting
-
-There are three points I would not overlook. They concern the reliability of the numerical results rather than the report's presentation.
-
-1. Geographic Coverage – hospital-level verification. The reported 2,211 covered beds imply that 304 beds are excluded. However, the original report does not include the seven individual distances from Els Bellots. Those distances should be checked against the 7.5 km threshold before treating the 87.9% result as fully demonstrated.
-
-2. Centre of Gravity – approximation. The new latitude/longitude calculation is mathematically transparent, and its weighted results are correct using the supplied coordinates. However, averaging latitude and longitude directly is an approximation. A projected-coordinate calculation would be more rigorous for a formal geographical centroid.
-
-3. Cost Model – transport assumptions. The annual transport estimates should ideally be supported by the actual route-distance calculations, particularly the multi-stop distribution tours and supplier journeys. The current report identifies them as estimates, which is appropriate.
-
-My assessment: The report now has a much clearer academic structure. The Centre of Gravity and Factor-Rating examples demonstrate the formulas numerically, while the Cost Model demonstrates the financial application. The remaining priority is to verify the hospital-by-hospital distances underlying Section 6.
