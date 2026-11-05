@@ -1084,7 +1084,9 @@ Table 6.4 – Sensitivity analysis of geographic coverage
 | IA-R2 — Cova Solera | 17.6% | 17.6% | 65.8% |
 | IA-C — Parc de l'Alba | 5.5% | 20.4% | 72.9% |
 
-Coverage percentages calculated using the Table 6.1 distances rounded to two decimal places.### Interpretation of the Sensitivity Analysis
+Coverage percentages calculated using the Table 6.1 distances rounded to two decimal places.
+
+### Interpretation of the Sensitivity Analysis
 
 The results demonstrate that Els Bellots maintains the strongest geographical performance across all three coverage thresholds.
 
