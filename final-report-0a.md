@@ -165,20 +165,20 @@ This produces an approximate geographical centre expressed in latitude and longi
 
 ### 2.3.2 Candidate Industrial Areas
 
-| ID | Candidate Industrial Area | Municipality |
-| --- | --- | --- |
-| IA-T | Els Bellots / Santa Margarida / Can Parellada | Terrassa |
-| IA-S1 | Sud-Oest / Sant Pau de Riu-sec | Sabadell |
-| IA-S2 | Sabadell Parc Empresarial / Can Roqueta | Sabadell |
-| IA-R1 | Can Sant Joan / Can Jardí | Rubí |
-| IA-R2 | Central/southern industrial corridor / Cova Solera | Rubí |
-| IA-C | Cerdanyola industrial corridor / Parc de l'Alba | Cerdanyola |
+The following table presents the six candidate industrial areas, their respective municipalities and geographical coordinates in WGS84 (EPSG:4326).
 
-The coordinates represent candidate industrial areas rather than precise building entrances.
+| ID | Candidate Industrial Area | Municipality | Latitude | Longitude |
+| --- | --- | --- | --- | --- |
+| IA-T | Els Bellots / Santa Margarida / Can Parellada | Terrassa | 41.549829 | 2.041354 |
+| IA-S1 | Sud-Oest / Sant Pau de Riu-sec | Sabadell | 41.513398 | 2.099462 |
+| IA-S2 | Sabadell Parc Empresarial / Can Roqueta | Sabadell | 41.540064 | 2.133064 |
+| IA-R1 | Can Sant Joan / Can Jardí | Rubí | 41.473458 | 2.020948 |
+| IA-R2 | Central/southern industrial corridor / Cova Solera | Rubí | 41.482667 | 2.026944 |
+| IA-C | Cerdanyola industrial corridor / Parc de l'Alba | Cerdanyola del Vallès | 41.486013 | 2.106586 |
 
-The six candidate areas were identified within the defined regional study scope.
+Methodological note: The coordinates represent reference points within the respective industrial areas and are used consistently to calculate straight-line geographical distances between each candidate and the seven healthcare facilities. 
 
-Each candidate is evaluated against the complete network of seven healthcare facilities, irrespective of the municipality in which the candidate area or healthcare facility is located.
+The six candidate areas were identified within the defined regional study scope. Each candidate is evaluated against the complete network of seven healthcare facilities, irrespective of the municipality in which the candidate area is located.
 
 ## 2.4 General Modelling Assumptions
 
