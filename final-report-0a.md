@@ -973,7 +973,7 @@ Table 6.2 – Weighted mean distance results
 | IA-R2 — Cova Solera | 8.41 km |
 | IA-R1 — Can Jardí | 9.37 km |
 
-Best geographical proximity: Els BellotsEls Bellots achieves the lowest weighted mean distance, indicating that it provides the closest overall geographical position relative to the demand-weighted hospital network.
+Best geographical proximity: Els Bellots achieves the lowest weighted mean distance, indicating that it provides the closest overall geographical position relative to the demand-weighted hospital network.
 
 ## 6.4 Geographic Coverage Methodology
 
