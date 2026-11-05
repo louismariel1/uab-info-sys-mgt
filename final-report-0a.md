@@ -37,19 +37,11 @@ Each method evaluates a different aspect of the location decision.
 | Cost Model | IA-R2 — Cova Solera | Lowest estimated annual equivalent cost |
 | Geographic Coverage | IA-T — Els Bellots | Highest baseline coverage: 87.9% |
 
-The project owner's principal priority is to compare transport-supply, transport-distribution and operating costs, including fixed, variable and establishment costs.
+The project owner's principal priority is to compare transport-supply, transport-distribution and operating costs, including fixed, variable and establishment costs. This priority align with the Cost Model. Consequently, **the Cost Model is the controlling method for the final selection**.
 
-Consequently, **the Cost Model is the controlling method for the final selection**.
+The Cost Model identifies **Cova Solera, Rubí**, as the lowest-cost candidate: **Estimated annual equivalent cost: €1,821,014.**
 
-The Cost Model identifies Cova Solera, Rubí, as the lowest-cost candidate:
-
-**Estimated annual equivalent cost: €1,821,014.**
-
-This is €15,707 lower per year than the second-ranked candidate, Can Jardí.
-
-**Final recommendation:** Select an industrial warehouse in **Polígon Industrial de Cova Solera, Rubí (Barcelona, Spain)** as the preferred location under the adopted assumptions.
-
-A publicly available property listing provides indicative evidence of a warehouse of approximately 1,500 m² in Cova Solera, with an asking rent of approximately €6,000/month.
+**Final Selection:** An industrial warehouse in **Polígon Industrial de Cova Solera, Rubí (Barcelona, Spain)** as the preferred location under the adopted assumptions. A publicly available property listing provides indicative evidence of a warehouse of approximately 1,500 m² in Cova Solera, with an asking rent of approximately €6,000/month.
 
 ---
 
@@ -71,8 +63,6 @@ The objective is to identify the most appropriate industrial location by applyin
 - Factor-Rating Method.
 - Cost Model.
 - Geographic Coverage Method.
-
-The methods are not expected to produce the same result because they address different decision criteria.
 
 ## 1.3 Study Methodology and Scope
 
