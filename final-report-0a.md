@@ -1109,19 +1109,7 @@ This conclusion is supported by two results:
 
 Furthermore, the sensitivity analysis demonstrates that Els Bellots maintains its geographical advantage when the coverage radius changes to 5 km or 10 km.
 
-It is important to understand that the Geographic Coverage Method does not automatically select a final warehouse location. Instead, it identifies the candidate that provides the strongest geographical proximity and coverage of the hospital network.
-
-The method does not account directly for property rental, establishment costs, fixed operating expenses or transport-provider costs.
-
-Consequently, its result is complementary to the Cost Model.
-
-Geographical preference: IA-T — Els Bellots.
-
-However, the final project recommendation remains IA-R2 — Cova Solera, Rubí, because the project owner's principal decision criterion is the minimisation of total annual operating costs. Cova Solera achieves the lowest estimated annual equivalent cost in the Cost Model.
-
-My recommendation is to retain this complete seven-part structure. It demonstrates the geographical method clearly, includes the necessary calculations and avoids unnecessary repetition.
-
-The key distinction is now clear: Els Bellots wins the geographical analysis; Cova Solera wins the cost analysis and therefore remains the final selected location.
+However, the final project recommendation remains **IA-R2 — Cova Solera, Rubí**, because the project owner's principal decision criterion is the minimisation of total annual operating costs. Cova Solera achieves the lowest estimated annual equivalent cost in the Cost Model.
 
 ---
 
