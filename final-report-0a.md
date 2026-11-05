@@ -1,16 +1,3 @@
-The updated final report below incorporates the agreed changes:
-
-- Retains the four location-analysis methods.
-- Uses the transparent latitude/longitude weighted Centre of Gravity calculation in Section 3.3, showing all seven hospitals' actual values, the weighted numerators, denominator and final coordinates.
-- Removes the redundant Weighted Mean Distance analysis from Section 6.
-- Retains Geographic Coverage as the single geographical method, with a worked example, comparative results and sensitivity analysis.
-- Keeps Cova Solera as the final selection because the Cost Model is the controlling decision criterion.
-- Retains the assumptions and limitations so that estimated figures are not presented as verified operational data.
-
-I have also flagged one remaining data-verification issue in the Geographic Coverage calculation rather than presenting an unverified hospital-distance result as fact.
-
-Writing
-
 # Centralized Hospital Laundry Location Study
 
 ## Location Analysis for a Centralized Hospital Laundry in Vallès Occidental, Catalonia
