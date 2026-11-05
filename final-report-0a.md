@@ -437,9 +437,7 @@ The corresponding coordinates are:
 - Latitude: 41.5448
 - Longitude: 2.0649
 
-The postal address is a nearby geographical identification of the calculated centre, rather than a property-level validation.
-
-Reference: https://www.gps-coordinates.net/
+The postal address is a geographical identification of the calculated centre.
 
 ## 3.5 Interpretation
 
