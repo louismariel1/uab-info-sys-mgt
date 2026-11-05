@@ -1133,15 +1133,11 @@ The methods produce different results because they evaluate different location c
 
 The results are not contradictory. Each method answers a different decision question.
 
-## 7.2 Controlling Decision Criterion
+## 7.2 Selected Location
 
 The project owner's priority is to compare transport-supply, transport-distribution and operating costs, including fixed, variable and establishment costs.
 
 The Cost Model directly evaluates these priorities.
-
-Consequently, the Cost Model is the controlling method for the final selection. The other methods provide supporting geographical and qualitative assessments.
-
-## 7.3 Selected Location
 
 **Final selected location: Industrial warehouse in Polígon Industrial de Cova Solera, Rubí (Barcelona, Spain).**
 
@@ -1149,29 +1145,7 @@ This corresponds to candidate IA-R2.
 
 An identifiable public property listing provides a reference for an industrial warehouse of approximately 1,500 m² in Cova Solera, advertised at approximately €6,000 per month.
 
-The implied rental rate is:
-
-$$
-R=\frac{6000}{1500}
-$$
-
-$$
-\boxed{R=€4.00/\text{m}^2/\text{month}}
-$$
-
-The annual rental cost is:
-
-$$
-C_{\text{annual}}=6000\times12
-$$
-
-$$
-\boxed{C_{\text{annual}}=€72,000/year}
-$$
-
-The property listing provides indicative market evidence only. Availability, contractual conditions and technical suitability must be confirmed before an actual lease decision.
-
-## 7.4 Selection Rationale
+## 7.3 Selection Rationale
 
 Cova Solera is selected because:
 
@@ -1199,21 +1173,9 @@ Four complementary location-analysis methods were applied:
 - Cost Model.
 - Geographic Coverage Method.
 
-The Centre of Gravity calculation identifies an approximate weighted geographical centre near Camí de Can Coniller, Terrassa.
-
-The Factor-Rating Method identifies Can Roqueta as the highest-scoring qualitative candidate, with a score of 4.20/5.
-
-The Geographic Coverage Method identifies Els Bellots as the strongest geographical candidate, with 87.9% baseline coverage of total hospital demand.
-
-However, the project owner's primary priority is minimizing total annual costs, including supply transport, distribution transport, fixed operating, variable processing and establishment costs.
-
 The Cost Model identifies Cova Solera as the lowest-cost candidate, with an estimated annual equivalent cost of €1,821,014.
 
-The estimated annual saving compared with the second-ranked candidate, Can Jardí, is €15,707.
-
 **Final decision: Cova Solera, Rubí, is the preferred location because it achieves the lowest estimated annual equivalent cost of €1,821,014 under the adopted project assumptions.**
-
-The recommendation is conditional on the validation of actual property availability, rental conditions, operational capacity, utility requirements, regulatory compliance and transport arrangements.
 
 ---
 
