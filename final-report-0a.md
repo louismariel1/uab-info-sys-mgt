@@ -216,7 +216,7 @@ These assumptions provide a consistent basis for comparing the six candidates. T
 
 ## 3.1 Methodology
 
-The Centre of Gravity Method identifies a theoretical geographical location using the coordinates and demand weights of the healthcare facilities.
+The Centre of Gravity Method identifies a geographical location using the coordinates and demand weights of the healthcare facilities.
 
 In this study, the geographical centre is calculated by weighting the latitude and longitude of each hospital according to its number of beds.
 
@@ -253,11 +253,9 @@ $$
 
 The original hospital coordinates are expressed in WGS84 (EPSG:4326).
 
-For this version of the study, the weighted average is calculated directly using the latitude and longitude values.
+For this study, the weighted average is calculated directly using the latitude and longitude values.
 
-This approach provides an approximate geographical centre suitable for the regional comparison undertaken in this study.
-
-Unlike a projected-coordinate calculation using Easting and Northing, this approach does not require an intermediate conversion into metric coordinates.
+This approach provides an approximate geographical centre suitable as center of gravity.
 
 The resulting latitude and longitude are subsequently used to identify a nearby postal address through a reverse-geocoding service.
 
@@ -447,15 +445,11 @@ Reference: https://www.gps-coordinates.net/
 
 ## 3.5 Interpretation
 
-The Centre of Gravity Method identifies an approximate demand-weighted geographical centre near **Camí de Can Coniller, 08220 Terrassa, Barcelona, Spain**.
+The Centre of Gravity Method identifies  **Camí de Can Coniller, 08220 Terrassa, Barcelona, Spain**.
 
 The result represents the geographical balance of the seven healthcare facilities, weighted by their respective bed capacities.
 
-It provides a theoretical reference point for the location decision.
-
-However, it does not account for property rental costs, road accessibility, transport-provider costs or the availability of suitable industrial premises.
-
-Consequently, the Centre of Gravity result is informative but does not determine the final selection.
+However, the business owner's strategy being the Cost Model, the Center of Gravity will not determine the final Laundry location.
 
 ---
 
