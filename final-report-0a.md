@@ -72,8 +72,6 @@ Seven healthcare facilities within this region were identified as demand points,
 
 The shortlist was based on their geographical position, their identification as established industrial areas or corridors, and the availability of relevant public geographical and industrial information.
 
-It provides a manageable set of plausible alternatives for comparative analysis, without implying formal technical or regulatory validation of individual properties.
-
 ---
 
 # 2\. Data Collection and Assumptions
